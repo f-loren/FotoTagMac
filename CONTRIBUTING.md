@@ -28,7 +28,7 @@ The code is Swift and SwiftUI. Identifiers and comments are in Italian, so pleas
 
 ## License of contributions
 
-By contributing, you agree that your changes are released under the project's license, the [GNU GPL version 3](COPYING).
+By contributing, you agree that your changes are released under the project's license, the [GNU GPL version 3](LICENSE).
 
 ## Conduct
 

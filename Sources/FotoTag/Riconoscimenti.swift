@@ -24,7 +24,7 @@ enum TestiApp {
 /// Finestra «Riconoscimenti»: licenze delle librerie e dei modelli usati.
 struct FinestraRiconoscimenti: View {
     var body: some View {
-        TestoMarkdown(testo: TestiApp.testo("RICONOSCIMENTI") + "\n\n---\n\n" + TestiApp.testo("LICENSE"))
+        TestoMarkdown(testo: TestiApp.testo("RICONOSCIMENTI") + "\n\n---\n\n" + TestiApp.testo("NOTICE"))
             .frame(minWidth: 620, minHeight: 520)
     }
 }

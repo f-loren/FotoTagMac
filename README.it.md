@@ -91,7 +91,7 @@ Per chi sviluppa:
 
 ## Licenza
 
-FotoTag è software libero, distribuito con la GNU General Public License versione 3: vedi [LICENSE.md](LICENSE.md) e il testo completo in [COPYING](COPYING).
+FotoTag è software libero, distribuito con la GNU General Public License versione 3: vedi [NOTICE.md](NOTICE.md) e il testo completo in [LICENSE](LICENSE).
 
 I modelli non sono nel repository: FotoTag li scarica da Hugging Face. Qwen3-VL (Alibaba Cloud) e SigLIP 2 (Google) hanno entrambi licenza Apache 2.0. Librerie e modelli di terzi sono elencati in [Risorse/RICONOSCIMENTI.md](Risorse/RICONOSCIMENTI.md).
 

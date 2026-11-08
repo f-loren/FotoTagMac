@@ -20,7 +20,7 @@ cp -R $PROD/*.bundle $APP/Contents/Resources/
 # testi tradotti (D68): Bundle.main li cerca nelle .lproj dell'app, non nel bundle della risorsa
 find $PROD/FotoTagMac_FotoTag.bundle -name "*.lproj" -maxdepth 3 -exec cp -R {} $APP/Contents/Resources/ \;
 cp Risorse/FotoTag.icns $APP/Contents/Resources/   # icona (da Risorse/FotoTag.svg)
-cp Risorse/RICONOSCIMENTI.md LICENSE.md COPYING $APP/Contents/Resources/   # licenze (strumenti/raccogli_licenze.py)
+cp Risorse/RICONOSCIMENTI.md NOTICE.md LICENSE $APP/Contents/Resources/   # licenze (strumenti/raccogli_licenze.py)
 cat > $APP/Contents/Info.plist <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
