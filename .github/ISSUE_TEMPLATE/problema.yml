@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting. You can write in English or Italian. Issues are public: don't attach personal photos or private paths.
+        Thanks for the report! English or Italian are both fine. Issues are public, so please don't attach personal photos or private file paths.
   - type: textarea
     id: what
     attributes:
@@ -19,7 +19,7 @@ body:
       label: How to reproduce
       placeholder: |
         1. Open the folder …
-        2. Press Analizza …
+        2. Click Analyze …
   - type: input
     id: mac
     attributes:

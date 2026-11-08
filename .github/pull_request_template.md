@@ -10,4 +10,4 @@
 
 ## Specification
 
-- [ ] The app's behaviour doesn't change, or I updated `docs/SPEC.md`
+- [ ] The app's behavior doesn't change, or I updated `docs/SPEC.md`
