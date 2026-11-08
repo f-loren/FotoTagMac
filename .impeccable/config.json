@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "docs/mockup/profili.html"
+        ],
+        "createdAt": "2026-11-03T12:36:19.942Z",
+        "reason": "Claude: mockup che imita le didascalie native di macOS a 11 pt"
+      }
+    ]
+  }
+}

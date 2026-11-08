@@ -1,0 +1,19 @@
+name: Idea
+description: A suggestion to improve FotoTag
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        FotoTag does one thing: keywords, captions and search for photos. Reorganising or importing photos stays out.
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to do
+      description: Describe the situation, not the solution. For example "I have 20,000 scans sorted by roll and I'd like to…".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How you picture it (optional)

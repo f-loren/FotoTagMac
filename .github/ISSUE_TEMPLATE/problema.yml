@@ -1,0 +1,57 @@
+name: Something doesn't work
+description: An error, a hang or a wrong result
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. You can write in English or Italian. Issues are public: don't attach personal photos or private paths.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce
+      placeholder: |
+        1. Open the folder …
+        2. Press Analizza …
+  - type: input
+    id: mac
+    attributes:
+      label: Mac and memory
+      placeholder: MacBook Air M2, 16 GB
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.1"
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: FotoTag build
+      description: FotoTag ▸ About FotoTag
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: Analysis model
+      options:
+        - Standard (8B)
+        - Light (4B)
+        - I don't know
+  - type: textarea
+    id: log
+    attributes:
+      label: Error messages (optional)
+      description: The error text, or lines from Console.app filtered by "fototag".
+      render: text

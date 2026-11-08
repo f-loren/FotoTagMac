@@ -1,0 +1,354 @@
+<title>Profili di FotoTag</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Pagina di mockup: finestre Impostazioni di macOS una sotto l'altra, note a fianco */
+:root{
+  --pagina:#ecebe8; --testo:#1d1d1f; --secondario:#5a5a5f; --finestra:#f5f5f4; --barra:#e7e6e3;
+  --gruppo:#ffffff; --linea:#d9d8d4; --accento:#0a63d1; --accento-fondo:#dce9fb; --gettone:#e9e8e4;
+  --nota:#fff7d6; --nota-bordo:#e7d27a; --ok:#1f7a3a;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --pagina:#161616; --testo:#f2f2f2; --secondario:#a1a1a6; --finestra:#262626; --barra:#2f2f2f;
+  --gruppo:#323232; --linea:#444; --accento:#3d8bfd; --accento-fondo:#1e3658; --gettone:#444;
+  --nota:#3a3420; --nota-bordo:#7a6a2a; --ok:#5ac17a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --pagina:#161616; --testo:#f2f2f2; --secondario:#a1a1a6; --finestra:#262626; --barra:#2f2f2f;
+  --gruppo:#323232; --linea:#444; --accento:#3d8bfd; --accento-fondo:#1e3658; --gettone:#444;
+  --nota:#3a3420; --nota-bordo:#7a6a2a; --ok:#5ac17a; color-scheme:dark}
+body{background:var(--pagina);color:var(--testo);font-family:var(--sans);font-size:13px;line-height:1.4;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.pagina{max-width:1080px;margin:0 auto;display:grid;gap:40px}
+h1{font-size:26px;font-weight:650;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:18px;font-weight:620;margin:0 0 4px;text-wrap:balance}
+.intro p,.blocco>p{max-width:68ch;margin:6px 0;color:var(--secondario)}
+.intro p strong{color:var(--testo)}
+.fianco{display:grid;grid-template-columns:minmax(0,620px) minmax(0,1fr);gap:28px;align-items:start}
+.coppia{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+@media (max-width:900px){.fianco,.coppia{grid-template-columns:minmax(0,1fr)}}
+.etichetta{font-weight:600;margin:0 0 8px}
+.etichetta span{font-weight:400;color:var(--secondario)}
+
+/* finestra */
+.finestra{background:var(--finestra);border-radius:11px;box-shadow:0 12px 32px rgba(0,0,0,.18),0 0 0 .5px rgba(0,0,0,.25);overflow:hidden;min-width:0}
+.titolo{background:var(--barra);border-bottom:1px solid var(--linea);padding:8px 12px 6px}
+.semafori{display:flex;gap:7px}
+.semafori i{width:11px;height:11px;border-radius:50%;background:#ff5f57}
+.semafori i:nth-child(2){background:#febc2e}.semafori i:nth-child(3){background:#28c840}
+.schede{display:flex;justify-content:center;gap:2px;margin-top:4px;flex-wrap:wrap}
+.scheda{display:grid;justify-items:center;gap:1px;padding:4px 9px;border-radius:6px;color:var(--secondario);font-size:11px}
+.scheda svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.5}
+.scheda.attiva{background:rgba(0,0,0,.07);color:var(--accento)}
+:root[data-theme="dark"] .scheda.attiva{background:rgba(255,255,255,.08)}
+.corpo{padding:16px 20px 20px;display:grid;gap:14px}
+
+/* form raggruppato */
+.gruppo{background:var(--gruppo);border-radius:8px;box-shadow:0 0 0 .5px var(--linea)}
+.gruppo>.riga{display:flex;align-items:center;gap:10px;padding:8px 12px;min-height:22px}
+.gruppo>.riga+.riga{border-top:1px solid var(--linea)}
+.riga .chi{flex:1;min-width:0}
+.riga .aiuto{display:block;color:var(--secondario);font-size:11px}
+.titolo-gruppo{font-weight:600;font-size:13px;margin:4px 2px -8px}
+.popup{display:inline-flex;align-items:center;gap:6px;background:var(--gruppo);border-radius:5px;padding:2px 6px 2px 9px;
+  box-shadow:0 0 0 .5px var(--linea),0 1px 1px rgba(0,0,0,.06);white-space:nowrap}
+.popup::after{content:"";width:14px;height:14px;border-radius:4px;background:var(--accento) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M4.5 5.5 7 3l2.5 2.5M4.5 8.5 7 11l2.5-2.5' fill='none' stroke='white' stroke-width='1.4'/%3E%3C/svg%3E")}
+.pulsante{display:inline-block;background:var(--gruppo);border-radius:5px;padding:2px 10px;box-shadow:0 0 0 .5px var(--linea),0 1px 1px rgba(0,0,0,.06);white-space:nowrap}
+.campo{background:var(--gruppo);border-radius:5px;padding:3px 7px;box-shadow:inset 0 0 0 1px var(--linea);min-width:0}
+.radio,.spunta{display:flex;gap:7px;align-items:flex-start}
+.radio i{flex:none;width:14px;height:14px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--linea);margin-top:1px;background:var(--gruppo)}
+.radio.si i{background:var(--accento);box-shadow:inset 0 0 0 4px var(--accento),inset 0 0 0 7px #fff}
+.spunta i{flex:none;width:14px;height:14px;border-radius:4px;background:var(--accento);margin-top:1px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='m3.5 7.2 2.3 2.3 4.7-5' fill='none' stroke='white' stroke-width='1.6'/%3E%3C/svg%3E")}
+.interruttore{flex:none;width:26px;height:15px;border-radius:8px;background:var(--accento);position:relative}
+.interruttore::after{content:"";position:absolute;right:1.5px;top:1.5px;width:12px;height:12px;border-radius:50%;background:#fff}
+
+/* campo a gettoni (NSTokenField) */
+.gettoni{display:flex;flex-wrap:wrap;gap:4px;padding:5px 6px;border-radius:5px;box-shadow:inset 0 0 0 1px var(--linea);background:var(--gruppo)}
+.gettoni b{font-weight:400;background:var(--gettone);border-radius:4px;padding:0 6px;font-size:12px}
+.gettoni em{font-style:normal;color:var(--secondario);font-size:12px;padding:0 2px}
+.blocco-riga{display:grid;gap:5px;padding:8px 12px}
+.gruppo>.blocco-riga+.riga,.gruppo>.riga+.blocco-riga,.gruppo>.blocco-riga+.blocco-riga{border-top:1px solid var(--linea)}
+
+/* tabella sigle */
+.sigle{width:100%;border-collapse:collapse;font-size:12px}
+.sigle td{padding:3px 4px;border-top:1px solid var(--linea)}
+.sigle tr:first-child td{border-top:0}
+.sigle td:first-child{font-family:var(--mono);width:34%;color:var(--secondario)}
+
+/* prova */
+.prova{background:var(--accento-fondo);border-radius:8px;padding:10px 12px;display:grid;gap:7px}
+.prova .percorso{font-family:var(--mono);font-size:12px;overflow-wrap:anywhere}
+.tag{display:inline-flex;gap:4px;flex-wrap:wrap}
+.tag b{font-weight:500;background:var(--gruppo);border-radius:10px;padding:1px 8px;font-size:12px}
+.tag b.dubbio{box-shadow:inset 0 0 0 1px var(--nota-bordo)}
+
+/* variante B: elenco a sinistra */
+.dueparti{display:grid;grid-template-columns:150px minmax(0,1fr);gap:14px;align-items:start}
+.elenco{background:var(--gruppo);border-radius:8px;box-shadow:0 0 0 .5px var(--linea);overflow:hidden}
+.elenco div{padding:5px 10px}
+.elenco .sel{background:var(--accento);color:#fff}
+.elenco .piede{border-top:1px solid var(--linea);color:var(--secondario);display:flex;gap:12px;padding:3px 8px}
+
+/* note */
+.note{display:grid;gap:10px;min-width:0}
+.note ol{margin:0;padding-left:20px;display:grid;gap:8px;max-width:60ch}
+.note li::marker{color:var(--secondario);font-variant-numeric:tabular-nums}
+.decidere{background:var(--nota);box-shadow:inset 0 0 0 1px var(--nota-bordo);border-radius:8px;padding:10px 12px}
+.decidere p{margin:4px 0 0}
+.segno{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:50%;background:var(--nota-bordo);color:var(--testo);font-size:10px;font-weight:700;vertical-align:1px}
+.consiglio{color:var(--ok);font-weight:600}
+code{font-family:var(--mono);font-size:12px}
+</style>
+
+<div class="pagina">
+
+<header class="intro">
+  <h1>Profili di FotoTag</h1>
+  <p>Mockup per SPEC §11 punto 7 e la decisione 44: una scheda <strong>Profili</strong> nelle Impostazioni, dove qualsiasi fotografo dice all'app come leggere i nomi delle sue cartelle. Il profilo di Lorenzo diventa un file importato, non una regola dentro l'app.</p>
+  <p>È un disegno in HTML: imita i controlli di macOS ma non è l'app. Misure, menu e scorciatoie si verificano sulla build. Le pastiglie gialle <span class="segno">?</span> segnano le scelte ancora aperte.</p>
+</header>
+
+<!-- ============ SCHERMATA 1 ============ -->
+<section class="blocco">
+  <h2>1. La scheda Profili, con il profilo Generico</h2>
+  <p>Prende il posto della scheda Pellicole: le sigle diventano una parte del profilo. Due modi di scegliere il profilo da modificare, con gli stessi contenuti.</p>
+  <div class="coppia" style="margin-top:14px">
+
+    <div>
+      <p class="etichetta">Variante A <span>· menu in alto</span> <span class="consiglio">consigliata</span></p>
+      <div class="finestra">
+        <div class="titolo">
+          <div class="semafori"><i></i><i></i><i></i></div>
+          <div class="schede">
+            <div class="scheda"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1M5.6 18.4l2.1-2.1m8.6-8.6 2.1-2.1"/></svg>Generali</div>
+            <div class="scheda attiva"><svg viewBox="0 0 24 24"><path d="M3 7h7l2 2h9v10H3z"/><path d="M8 14h8"/></svg>Profili</div>
+            <div class="scheda"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 12h.01M17 12h-6"/></svg>Originali</div>
+            <div class="scheda"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 3v3m6-3v3M9 18v3m6-3v3M3 9h3m-3 6h3m12-6h3m-3 6h3"/></svg>Modelli</div>
+          </div>
+        </div>
+        <div class="corpo">
+          <div class="gruppo">
+            <div class="riga">
+              <span class="chi">Profilo</span>
+              <span class="popup">Generico</span>
+              <span class="pulsante">…</span>
+            </div>
+            <div class="riga"><span class="chi"><span class="aiuto">Usato da: Immagini (~/Pictures), Disco esterno. Si cambia in Generali ▸ Cartelle.</span></span></div>
+          </div>
+
+          <p class="titolo-gruppo">Come leggere le cartelle</p>
+          <div class="gruppo">
+            <div class="blocco-riga">
+              <div class="radio si"><i></i><span>Il nome della cartella della foto diventa un tag<span class="aiuto">La data viene dallo scatto (EXIF).</span></span></div>
+              <div class="radio"><i></i><span>Struttura anno ▸ mese ▸ rullino<span class="aiuto">Data, rullino e pellicola dai nomi di tutte le cartelle sotto l'anno.</span></span></div>
+            </div>
+            <div class="riga">
+              <span class="chi">Nelle cartelle di pellicola, una data AAAAMMGG è il giorno della scansione<span class="aiuto">Si tiene solo il mese.</span></span>
+              <span class="interruttore"></span>
+            </div>
+          </div>
+
+          <p class="titolo-gruppo">Nomi di cartella</p>
+          <div class="gruppo">
+            <div class="blocco-riga">
+              <span>Da non usare come tag</span>
+              <div class="gettoni"><b>jpg</b><b>raw</b><b>export</b><b>edit</b><b>originali</b><b>selezione</b><b>dcim</b><b>foto</b><em>+ 11</em></div>
+            </div>
+            <div class="blocco-riga">
+              <span>Dicono che è una scansione di pellicola</span>
+              <div class="gettoni"><b>negativi</b><b>positivi</b><b>scansioni</b><b>pellicola</b><b>film</b><b>scans</b><em>+ 3</em></div>
+            </div>
+            <div class="blocco-riga">
+              <span>Sottocartelle da non elencare <span class="segno">?</span><span class="aiuto">Copie della stessa foto, per esempio con la cornice. Le foto lì dentro non compaiono.</span></span>
+              <div class="gettoni"><em>nessuna</em></div>
+            </div>
+          </div>
+
+          <p class="titolo-gruppo">Pellicole</p>
+          <div class="gruppo">
+            <div class="blocco-riga">
+              <span class="aiuto" style="font-size:12px">Sigla nel nome della cartella e nome da scrivere nei tag.</span>
+              <table class="sigle">
+                <tr><td>portra 400</td><td>Kodak Portra 400</td></tr>
+                <tr><td>hp5</td><td>Ilford HP5 Plus 400</td></tr>
+                <tr><td>gold 200</td><td>Kodak Gold 200</td></tr>
+              </table>
+              <span class="aiuto">e altre 5 · <span style="color:var(--accento)">Modifica…</span></span>
+            </div>
+          </div>
+
+          <div class="gruppo">
+            <div class="riga"><span class="chi">Ordine delle importazioni</span><span class="popup">Anno / AAAA-MM-GG</span></div>
+          </div>
+
+          <div class="prova">
+            <div class="riga" style="display:flex;gap:8px;align-items:center"><span>Prova su</span><span class="campo percorso" style="flex:1">Viaggi/Lisbona marzo/negativi/scan_0012.jpg</span><span class="pulsante">Scegli foto…</span></div>
+            <div class="tag"><b>lisbona marzo</b><b>pellicola</b><b>2024 (dallo scatto)</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="etichetta">Variante B <span>· elenco a sinistra</span></p>
+      <div class="finestra">
+        <div class="titolo">
+          <div class="semafori"><i></i><i></i><i></i></div>
+          <div class="schede">
+            <div class="scheda">Generali</div><div class="scheda attiva">Profili</div><div class="scheda">Originali</div><div class="scheda">Modelli</div>
+          </div>
+        </div>
+        <div class="corpo">
+          <div class="dueparti">
+            <div class="elenco">
+              <div class="sel">Generico</div>
+              <div>Archivio di pellicola</div>
+              <div>Matrimoni</div>
+              <div class="piede"><span>+</span><span>−</span><span>…</span></div>
+            </div>
+            <div style="display:grid;gap:10px;min-width:0">
+              <div class="gruppo"><div class="riga"><span class="chi">Nome</span><span class="campo">Generico</span></div></div>
+              <div class="gruppo">
+                <div class="blocco-riga">
+                  <div class="radio si"><i></i><span>Il nome della cartella diventa un tag</span></div>
+                  <div class="radio"><i></i><span>Struttura anno ▸ mese ▸ rullino</span></div>
+                </div>
+              </div>
+              <div class="gruppo">
+                <div class="blocco-riga"><span>Da non usare come tag</span><div class="gettoni"><b>jpg</b><b>raw</b><b>export</b><em>+ 16</em></div></div>
+              </div>
+              <p class="aiuto" style="color:var(--secondario);margin:0">… stesse sezioni della variante A, in una colonna più stretta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="note" style="margin-top:16px">
+        <p><strong>Perché consiglio la A.</strong> Quasi tutti i fotografi avranno un profilo solo, al massimo due: un elenco sempre aperto toglie 160 punti alla colonna dei gettoni, che è la parte che si modifica di più. La B conviene solo se i profili diventano tanti, e si può passare alla B dopo senza toccare i dati.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ SCHERMATA 2 ============ -->
+<section class="blocco">
+  <h2>2. Il profilo importato di Lorenzo, con la prova su un percorso vero</h2>
+  <div class="fianco" style="margin-top:14px">
+    <div class="finestra">
+      <div class="titolo">
+        <div class="semafori"><i></i><i></i><i></i></div>
+        <div class="schede"><div class="scheda">Generali</div><div class="scheda attiva">Profili</div><div class="scheda">Originali</div><div class="scheda">Modelli</div></div>
+      </div>
+      <div class="corpo">
+        <div class="gruppo">
+          <div class="riga">
+            <span class="chi">Profilo</span>
+            <span class="popup">Archivio di pellicola</span>
+            <span class="pulsante">…</span>
+          </div>
+          <div class="riga"><span class="chi"><span class="aiuto">Usato da: BeeStation (disco in cloud). Importato da esempio-pellicola.fototag-profilo il 3/11.</span></span></div>
+        </div>
+        <div class="gruppo" style="font-size:12px">
+          <div class="riga" style="color:var(--secondario)">Menu «…»</div>
+          <div class="riga">Nuovo profilo da Generico</div>
+          <div class="riga">Duplica «Archivio di pellicola»</div>
+          <div class="riga">Rinomina…</div>
+          <div class="riga">Importa da un file…</div>
+          <div class="riga">Esporta in un file…</div>
+          <div class="riga">Elimina… <span class="aiuto" style="display:inline">(non per Generico; le cartelle tornano a Generico)</span></div>
+        </div>
+
+        <p class="titolo-gruppo">Come leggere le cartelle</p>
+        <div class="gruppo">
+          <div class="blocco-riga">
+            <div class="radio"><i></i><span>Il nome della cartella della foto diventa un tag</span></div>
+            <div class="radio si"><i></i><span>Struttura anno ▸ mese ▸ rullino<span class="aiuto">Data, rullino e pellicola dai nomi di tutte le cartelle sotto l'anno.</span></span></div>
+          </div>
+          <div class="riga">
+            <span class="chi">Nelle cartelle di pellicola, una data AAAAMMGG è il giorno della scansione</span>
+            <span class="interruttore"></span>
+          </div>
+        </div>
+
+        <p class="titolo-gruppo">Nomi di cartella</p>
+        <div class="gruppo">
+          <div class="blocco-riga"><span>Da non usare come tag</span>
+            <div class="gettoni"><b>nksc_param</b><b>cornici</b><b>jpg</b><b>raw</b><b>raw convertiti</b><b>incorniciate</b><b>edit mio</b><b>foto synology</b><b>b&amp;n</b><em>+ 20</em></div></div>
+          <div class="blocco-riga"><span>Dicono che è una scansione di pellicola</span>
+            <div class="gettoni"><b>positivi</b><b>negativi</b><b>sviluppi</b><b>sviluppo mio</b><b>scansioni</b><em>+ 3</em></div></div>
+          <div class="blocco-riga"><span>Sottocartelle da non elencare</span>
+            <div class="gettoni"><b>cornici</b><b>cornice</b></div></div>
+        </div>
+
+        <p class="titolo-gruppo">Pellicole</p>
+        <div class="gruppo">
+          <div class="blocco-riga">
+            <table class="sigle">
+              <tr><td>fomapan 400</td><td>Fomapan 400</td></tr>
+              <tr><td>p3200</td><td>Kodak T-Max P3200</td></tr>
+              <tr><td>chs 100 ii</td><td>Adox CHS 100 II</td></tr>
+            </table>
+            <span class="aiuto">e altre 13 · <span style="color:var(--accento)">Modifica…</span></span>
+          </div>
+        </div>
+
+        <div class="gruppo">
+          <div class="riga"><span class="chi">Ordine delle importazioni</span><span class="popup">Anno / AAAA-MM-GG soggetto, RAW e JPG separati</span></div>
+        </div>
+
+        <div class="prova">
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span>Prova su</span><span class="campo percorso" style="flex:1">2019/03 marzo/R12 fomapan 400@800/positivi/20190402/_DSC3816.jpg</span><span class="pulsante">Scegli foto…</span></div>
+          <div class="tag"><b>2019</b><b>marzo</b><b>rullino R12</b><b>Fomapan 400</b><b>tirata a 800</b><b>analogica</b></div>
+          <span class="aiuto" style="color:var(--secondario);font-size:11px">Il giorno 02/04 non c'è: è quello della scansione.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="note">
+      <p><strong>Cosa cambia rispetto a oggi.</strong></p>
+      <ol>
+        <li>Oggi «Profilo Lorenzo» è scritto nel codice e ogni fotografo lo vede nel menu. Qui non esiste nell'app: Lorenzo lo importa una volta da un file, che resta nel repo come dato di prova.</li>
+        <li>Oggi le sigle delle pellicole sono una tabella sola per tutti i profili (un solo <code>pellicole.json</code>). Qui ogni profilo ha le sue, e la scheda Pellicole sparisce.</li>
+        <li>La prova su un percorso è nuova: è l'unico modo per capire una regola senza rianalizzare. Usa la stessa lettura dell'analisi, non una copia.</li>
+        <li>Generali ▸ Cartelle resta com'è: il menu accanto a ogni accesso elenca i profili, più «Modifica profili…» in fondo, che apre questa scheda.</li>
+      </ol>
+      <div class="decidere">
+        <strong><span class="segno">?</span> Da decidere</strong>
+        <p>Cambiare un profilo vale subito per le foto nuove. Per quelle già analizzate i tag fissi si ricalcolano (non serve il modello), ma le correzioni a mano restano. Proposta: si ricalcolano da soli alla chiusura della scheda, con una riga in fondo alla barra laterale.</p>
+        <p>«Sottocartelle da non elencare» è la regola più difficile da spiegare. Proposta: resta, con l'aiuto sotto, perché senza di essa le foto con la cornice compaiono due volte.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCHERMATA 3 ============ -->
+<section class="blocco">
+  <h2>3. Generali ▸ Cartelle, quasi come oggi</h2>
+  <div class="fianco" style="margin-top:14px">
+    <div class="finestra">
+      <div class="titolo">
+        <div class="semafori"><i></i><i></i><i></i></div>
+        <div class="schede"><div class="scheda attiva">Generali</div><div class="scheda">Profili</div><div class="scheda">Originali</div><div class="scheda">Modelli</div></div>
+      </div>
+      <div class="corpo">
+        <div class="gruppo">
+          <div class="riga"><span class="chi">Profilo per i nuovi accessi</span><span class="popup">Generico</span></div>
+        </div>
+        <p class="titolo-gruppo">Cartelle</p>
+        <div class="gruppo">
+          <div class="riga"><span class="chi">/Users/mario/Pictures</span><span class="popup">Generico</span><span class="pulsante">Togli</span></div>
+          <div class="riga"><span class="chi">/Volumes/BeeStation/Foto</span><span class="popup">Archivio di pellicola</span><span class="pulsante">Togli</span></div>
+          <div class="riga" style="font-size:12px;color:var(--secondario)"><span class="chi">menu aperto: Generico · Archivio di pellicola · ─ · Modifica profili…</span></div>
+          <div class="riga"><span class="pulsante">Aggiungi disco o cartella…</span><span class="pulsante">Aggiorna l'indice</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="note">
+      <p>Cambia solo la parola: «Regole» diventa «Profilo», lo stesso nome della scheda. Lo stesso menu c'è in Originali, accanto a ogni cartella di RAW. Il profilo resta uno per accesso, mai per sottocartella (decisione 51).</p>
+      <p>Il primo fotografo che apre l'app non vede nulla di tutto questo: Generico è già scelto e funziona senza toccarlo (criterio 1 della v0.2).</p>
+    </div>
+  </div>
+</section>
+
+</div>

@@ -1,0 +1,5320 @@
+{
+  "sourceLanguage": "it",
+  "strings": {
+    "": {},
+    " (copia)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " (copy)"
+          }
+        }
+      }
+    },
+    " (disco in cloud)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " (cloud drive)"
+          }
+        }
+      }
+    },
+    " (importato)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " (imported)"
+          }
+        }
+      }
+    },
+    " Chiudi e riapri FotoTag, poi riprova.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " Quit and reopen FotoTag, then try again."
+          }
+        }
+      }
+    },
+    " Occupa 1,5 GB sul disco.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " Takes 1.5 GB on disk."
+          }
+        }
+      }
+    },
+    " · circa %lld h": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · about %lld h"
+          }
+        }
+      }
+    },
+    " · circa %lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · about %lld min"
+          }
+        }
+      }
+    },
+    " · meno di 2 min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · less than 2 min"
+          }
+        }
+      }
+    },
+    "%@ RAW del disco in cloud non sono ancora collegabili ai JPG.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ RAW files on the cloud drive can't be linked to their JPGs yet."
+          }
+        }
+      }
+    },
+    "%@ foto del disco in cloud non sono cercabili.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ photos on the cloud drive can't be searched."
+          }
+        }
+      }
+    },
+    "%@ in tutte le cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ in all folders"
+          }
+        }
+      }
+    },
+    "%@ non è ancora stata scaricata dal disco in cloud": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ hasn't been downloaded from the cloud drive yet"
+          }
+        }
+      }
+    },
+    "%@ non è ancora stata scaricata dal disco in cloud: non è stata modificata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ hasn't been downloaded from the cloud drive yet: it was not changed"
+          }
+        }
+      }
+    },
+    "%@: analisi finita": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: analysis finished"
+          }
+        }
+      }
+    },
+    "%@: analisi interrotta dopo %lld foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: analysis stopped after %2$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@: c'era già una didascalia diversa, l'ho lasciata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: a different caption was already there, I left it"
+          }
+        }
+      }
+    },
+    "%@: file illeggibile": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: unreadable file"
+          }
+        }
+      }
+    },
+    "%@: i RAW non si modificano, si scrive solo il .xmp": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: RAW files are never changed, only the .xmp is written"
+          }
+        }
+      }
+    },
+    "%@: impossibile creare il file temporaneo (cartella in sola lettura?)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: couldn't create the temporary file (read-only folder?)"
+          }
+        }
+      }
+    },
+    "%@: la scrittura avrebbe cambiato l'immagine, il file non è stato modificato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: writing would have changed the image, the file was not changed"
+          }
+        }
+      }
+    },
+    "%@: scrittura non riuscita %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: writing failed %@"
+          }
+        }
+      }
+    },
+    "%@: sidecar esistente non leggibile, non l'ho toccato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: existing sidecar can't be read, I didn't touch it"
+          }
+        }
+      }
+    },
+    "%@: verifica fallita": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: check failed"
+          }
+        }
+      }
+    },
+    "%@: verifica fallita, mancano %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: check failed, missing %@"
+          }
+        }
+      }
+    },
+    "%@: verifica fallita, mancano %@ e la didascalia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: check failed, missing %@ and the caption"
+          }
+        }
+      }
+    },
+    "%lld": {},
+    "%lld JPG: tag e didascalia dentro il file. L'immagine non viene ricompressa.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld JPG: tags and caption inside the file. The image is not recompressed."
+          }
+        }
+      }
+    },
+    "%lld RAW senza JPG restano solo da vedere: per ora FotoTag analizza JPG, HEIC e TIFF. Esporta un JPG per analizzarli.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld RAW files without a JPG can only be viewed: for now FotoTag analyzes JPG, HEIC and TIFF. Export a JPG to analyze them."
+          }
+        }
+      }
+    },
+    "%lld analizzate · %lld da rivedere · %lld confermate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld analyzed · %lld to review · %lld confirmed"
+          }
+        }
+      }
+    },
+    "%lld con errore": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld with errors"
+          }
+        }
+      }
+    },
+    "%lld da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld to review"
+          }
+        }
+      }
+    },
+    "%lld di %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld"
+          }
+        }
+      }
+    },
+    "%lld di %lld, %lld da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld, %lld to review"
+          }
+        }
+      }
+    },
+    "%lld file": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto analizzate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ analyzed"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto analizzata"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto analizzate"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto confermate aspettano di essere scritte nei file.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld confirmed photos are waiting to be written to the files."
+          }
+        }
+      }
+    },
+    "%lld foto confermate da scrivere: tag e didascalie nei file, dopo una conferma con l'elenco (⌘S)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ to write: tags and captions into the files, after a confirmation with the list (⌘S)"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg confirmed photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg confirmed photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ da scrivere: tag e didascalie nei file, dopo una conferma con l'elenco (⌘S)"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto confermata"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto confermate"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto in %lld cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ in %2$#@a2@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            },
+            "a2": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg folder"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg folders"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld foto in %2$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg cartella"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg cartelle"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto scritte (%lld file), controllate rileggendole.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ written (%2$#@a2@), checked by reading them back."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            },
+            "a2": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg files"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ (%2$lld file), %1$#@a2@."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto scritta"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto scritte"
+                    }
+                  }
+                }
+              }
+            },
+            "a2": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "controllata rileggendola"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "controllate rileggendole"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto selezionate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ selected"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto selezionata"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto selezionate"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld foto, %lld da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@, %2$lld to review"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld originali collegati con poca certezza non ricevono nulla: controllali nella revisione.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@ linked with low certainty get nothing: check them in the review."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg original"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg originals"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld originali collegati: per i RAW si scrive solo il file .xmp accanto, il RAW non si tocca.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@: for RAW files only the .xmp next to them is written, the RAW is never touched."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg linked original"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg linked originals"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld px": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld px"
+          }
+        }
+      }
+    },
+    "%lld sigle: ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@: "
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg code"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg codes"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$#@a1@: "
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg sigla"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg sigle"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld/%lld": {},
+    "+ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ %@"
+          }
+        }
+      }
+    },
+    ", %lld con errore": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", %lld with errors"
+          }
+        }
+      }
+    },
+    ", %lld da scrivere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", %lld to write"
+          }
+        }
+      }
+    },
+    ", %lld foto non sono arrivate dal disco in cloud (riprova più tardi).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", %1$#@a1@ didn't arrive from the cloud drive (try again later)."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    ", fine verso le %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", done around %@"
+          }
+        }
+      }
+    },
+    ", originale solo sul disco in cloud": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", original only on the cloud drive"
+          }
+        }
+      }
+    },
+    ". %@ non lette (disco staccato o file illeggibile, vedi Diario).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ". %@ not read (drive disconnected or unreadable file, see the log)."
+          }
+        }
+      }
+    },
+    "1 foto confermata aspetta di essere scritta nei file.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 confirmed photo is waiting to be written to the file."
+          }
+        }
+      }
+    },
+    "AAAA, AAAA-MM o AAAA-MM-GG": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YYYY, YYYY-MM or YYYY-MM-DD"
+          }
+        }
+      }
+    },
+    "Aggiorna": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh"
+          }
+        }
+      }
+    },
+    "Aggiorna l'indice": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh the index"
+          }
+        }
+      }
+    },
+    "Aggiungi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        }
+      }
+    },
+    "Aggiungi cartella…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Folder…"
+          }
+        }
+      }
+    },
+    "Aggiungi come copia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add as Copy"
+          }
+        }
+      }
+    },
+    "Aggiungi disco o cartella…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Drive or Folder…"
+          }
+        }
+      }
+    },
+    "Aggiungi tag «%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Tag “%@”"
+          }
+        }
+      }
+    },
+    "Aggiungi un tag (T)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a tag (T)"
+          }
+        }
+      }
+    },
+    "Aggiungi un tag a tutte (T)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a tag to all (T)"
+          }
+        }
+      }
+    },
+    "Aggiungi «%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add “%@”"
+          }
+        }
+      }
+    },
+    "Aggiungi «%@» come nuovo tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add “%@” as a new tag"
+          }
+        }
+      }
+    },
+    "Altre azioni": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More Actions"
+          }
+        }
+      }
+    },
+    "Altre azioni: Rianalizza chiede al modello una proposta diversa, i tag aggiunti a mano restano": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More actions: Reanalyze asks the model for a different suggestion, tags added by hand stay"
+          }
+        }
+      }
+    },
+    "Analisi di %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyzing %@"
+          }
+        }
+      }
+    },
+    "Analizza": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze"
+          }
+        }
+      }
+    },
+    "Analizza %lld foto non ancora analizzate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze %1$#@a1@ not analyzed yet"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizza %1$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto non ancora analizzata"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto non ancora analizzate"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Analizza %lld foto non ancora analizzate tra le selezionate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze %1$#@a1@ not analyzed yet"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg selected photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg selected photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizza %1$#@a1@ tra le selezionate"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto non ancora analizzata"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg foto non ancora analizzate"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Analizza (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze (%lld)"
+          }
+        }
+      }
+    },
+    "Analizza comunque": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze Anyway"
+          }
+        }
+      }
+    },
+    "Analizza questa foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze This Photo"
+          }
+        }
+      }
+    },
+    "Analizzata in %@ s": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyzed in %@ s"
+          }
+        }
+      }
+    },
+    "Annulla": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Anteprima di %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview of %@"
+          }
+        }
+      }
+    },
+    "Anteprime": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previews"
+          }
+        }
+      }
+    },
+    "Anteprime di %@: %lld di %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previews of %@: %lld of %lld"
+          }
+        }
+      }
+    },
+    "Anteprime di «%@»: %lld create": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previews of “%@”: %lld created"
+          }
+        }
+      }
+    },
+    "Apri %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open %@"
+          }
+        }
+      }
+    },
+    "Apri con Quick Look": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open with Quick Look"
+          }
+        }
+      }
+    },
+    "Apri la foto grande (spazio)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open the large photo (space)"
+          }
+        }
+      }
+    },
+    "Apri recente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recent"
+          }
+        }
+      }
+    },
+    "Aspetto la fine dell'indice degli originali…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for the originals index to finish…"
+          }
+        }
+      }
+    },
+    "Automatico (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatic (%@)"
+          }
+        }
+      }
+    },
+    "Avvisa con una notifica quando un'analisi finisce": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send a notification when an analysis finishes"
+          }
+        }
+      }
+    },
+    "Avvisi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
+          }
+        }
+      }
+    },
+    "C'è già un download in corso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A download is already in progress"
+          }
+        }
+      }
+    },
+    "C'è già un download in corso: riprova quando finisce.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A download is already in progress: try again when it finishes."
+          }
+        }
+      }
+    },
+    "C'è poca memoria libera: %@ GB, e per l'analisi ne servono circa %@. Chiudi le app pesanti o aspetta che finiscano le compilazioni in corso (per esempio Xcode o Rust), poi riprova. Analizzare adesso può rallentare molto il Mac o fermarsi con un errore della GPU.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free memory is low: %@ GB, and the analysis needs about %@. Quit heavy apps or wait for running builds to finish (for example Xcode or Rust), then try again. Analyzing now may slow the Mac down a lot or stop with a GPU error."
+          }
+        }
+      }
+    },
+    "Cambia…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change…"
+          }
+        }
+      }
+    },
+    "Cancella menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Menu"
+          }
+        }
+      }
+    },
+    "Carico %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading %@…"
+          }
+        }
+      }
+    },
+    "Carico il modello di ricerca…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading the search model…"
+          }
+        }
+      }
+    },
+    "Cartella": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        }
+      }
+    },
+    "Cartella non riconnessa: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder not reconnected: %@"
+          }
+        }
+      }
+    },
+    "Cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders"
+          }
+        }
+      }
+    },
+    "Cartelle dove stanno i RAW e le scansioni originali. FotoTag le legge soltanto: guarda nomi e date dei file, senza scaricare nulla dal disco in cloud.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders that hold the RAW files and original scans. FotoTag only reads them: it looks at file names and dates, without downloading anything from the cloud drive."
+          }
+        }
+      }
+    },
+    "Cerca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "Cerca in": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search In"
+          }
+        }
+      }
+    },
+    "Cerca in tutte le foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search all photos"
+          }
+        }
+      }
+    },
+    "Cerca in:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search in:"
+          }
+        }
+      }
+    },
+    "Cerco in %lld foto. Le altre si aggiungono mentre preparo la ricerca.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching %1$#@a1@. The others are added while I prepare the search."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Chiede al modello una proposta diversa; i tag aggiunti a mano restano": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asks the model for a different suggestion; tags added by hand stay"
+          }
+        }
+      }
+    },
+    "Chiudi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "Chiudi %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collapse %@"
+          }
+        }
+      }
+    },
+    "Chiudi la notizia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close the notice"
+          }
+        }
+      }
+    },
+    "Come leggere le cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How to Read Folders"
+          }
+        }
+      }
+    },
+    "Con errore": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With Errors"
+          }
+        }
+      }
+    },
+    "Conferma i tag e passa alla prossima da rivedere (↩ nella griglia, ⌘↩ dai campi). Non scrive nei file.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm the tags and move to the next one to review (↩ in the grid, ⌘↩ from the fields). Doesn't write to the files."
+          }
+        }
+      }
+    },
+    "Conferma tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm Tags"
+          }
+        }
+      }
+    },
+    "Conferma tag (%lld foto)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm Tags (%1$#@a1@)"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Confermate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmed"
+          }
+        }
+      }
+    },
+    "Confermate %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmed %lld"
+          }
+        }
+      }
+    },
+    "Consenti": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow"
+          }
+        }
+      }
+    },
+    "Contesto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Context"
+          }
+        }
+      }
+    },
+    "Copia di sicurezza dei file prima di modificarli": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back up files before changing them"
+          }
+        }
+      }
+    },
+    "Copia di sicurezza prima di scrivere nei file": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back up before writing to the files"
+          }
+        }
+      }
+    },
+    "Copia gli originali in ~/Library/Application Support/FotoTag/Copie di sicurezza, tenuti 5 giorni": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copies the originals to ~/Library/Application Support/FotoTag/Copie di sicurezza, kept for 5 days"
+          }
+        }
+      }
+    },
+    "Copie della stessa foto, per esempio con la cornice: le foto lì dentro non compaiono.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copies of the same photo, for example with a frame: photos in there are not shown."
+          }
+        }
+      }
+    },
+    "Correggi %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit %@"
+          }
+        }
+      }
+    },
+    "Correggi %@ (%lld foto)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit %1$@ (%2$#@a1@)"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Crea anteprime mancanti": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Missing Previews"
+          }
+        }
+      }
+    },
+    "Da fare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To Do"
+          }
+        }
+      }
+    },
+    "Da non usare come tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never use as tags"
+          }
+        }
+      }
+    },
+    "Da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To Review"
+          }
+        }
+      }
+    },
+    "Da rivedere %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To Review %lld"
+          }
+        }
+      }
+    },
+    "Da scrivere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To Write"
+          }
+        }
+      }
+    },
+    "Data": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date"
+          }
+        }
+      }
+    },
+    "Data dallo scatto (EXIF), nome della cartella come tag, pellicola solo con indizi chiari.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date from the shot (EXIF), folder name as a tag, film only with clear clues."
+          }
+        }
+      }
+    },
+    "Database non disponibile: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Database not available: %@"
+          }
+        }
+      }
+    },
+    "Diagnostica non salvata: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostics not saved: %@"
+          }
+        }
+      }
+    },
+    "Dicono che è una scansione di pellicola": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indicate a film scan"
+          }
+        }
+      }
+    },
+    "Didascalia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caption"
+          }
+        }
+      }
+    },
+    "Dimensione miniature": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thumbnail Size"
+          }
+        }
+      }
+    },
+    "Disco di avvio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Startup Disk"
+          }
+        }
+      }
+    },
+    "Dove": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where"
+          }
+        }
+      }
+    },
+    "Dove salvare le anteprime delle foto (quelle già salvate restano dove sono).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where to save photo previews (the ones already saved stay where they are)."
+          }
+        }
+      }
+    },
+    "Dove si trova ora «%@»? Analisi, revisione e tag restano collegati alle foto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where is “%@” now? Analysis, review and tags stay linked to the photos."
+          }
+        }
+      }
+    },
+    "Dove sono le tue foto?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where are your photos?"
+          }
+        }
+      }
+    },
+    "Download non riuscito: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download failed: %@"
+          }
+        }
+      }
+    },
+    "Duplica «%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate “%@”"
+          }
+        }
+      }
+    },
+    "Elimina": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "Eliminare «%@»?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete “%@”?"
+          }
+        }
+      }
+    },
+    "Elimina…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete…"
+          }
+        }
+      }
+    },
+    "Errore della GPU durante l'analisi di %@, anche dopo un secondo tentativo: l'analisi si è fermata. Riprova con «Analizza»; se si ripete, chiudi e riapri FotoTag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GPU error while analyzing %@, even after a second try: the analysis stopped. Try again with “Analyze”; if it happens again, quit and reopen FotoTag."
+          }
+        }
+      }
+    },
+    "Errore della GPU: riprova con «Analizza».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GPU error: try again with “Analyze”."
+          }
+        }
+      }
+    },
+    "Errori": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errors"
+          }
+        }
+      }
+    },
+    "Errori %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errors %lld"
+          }
+        }
+      }
+    },
+    "Esc torna a %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc goes back to %@"
+          }
+        }
+      }
+    },
+    "Esporta diagnostica…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export Diagnostics…"
+          }
+        }
+      }
+    },
+    "Esporta in un file…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export to a File…"
+          }
+        }
+      }
+    },
+    "Esposta a": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exposed at"
+          }
+        }
+      }
+    },
+    "Fatto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "Fatto, con qualche problema": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done, with some problems"
+          }
+        }
+      }
+    },
+    "Ferma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop"
+          }
+        }
+      }
+    },
+    "Ferma dopo la foto in corso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop after the current photo"
+          }
+        }
+      }
+    },
+    "Ferma il download: i file già scaricati restano e la prossima volta si riparte da lì": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop the download: files already downloaded stay, and next time it resumes from there"
+          }
+        }
+      }
+    },
+    "File .xmp accanto ai RAW": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ".xmp files next to RAW files"
+          }
+        }
+      }
+    },
+    "Fine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "Finito il download parte l'analisi della foto scelta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When the download finishes, the chosen photo is analyzed."
+          }
+        }
+      }
+    },
+    "Finito il download parte l'analisi di %lld foto. L'avanzamento si vede in fondo alla barra laterale.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When the download finishes, %1$#@a1@ analyzed. Progress shows at the bottom of the sidebar."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo is"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos are"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Formati letti: RAW, HEIC, JPG e TIFF": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formats read: RAW, HEIC, JPG and TIFF"
+          }
+        }
+      }
+    },
+    "Foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos"
+          }
+        }
+      }
+    },
+    "Foto al 100%": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo at 100%"
+          }
+        }
+      }
+    },
+    "Foto al 100%: clic, Z o Esc per vederla intera": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo at 100%: click, Z or Esc to see all of it"
+          }
+        }
+      }
+    },
+    "Foto grande": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large Photo"
+          }
+        }
+      }
+    },
+    "Foto grande: anteprima da %@ px. L'originale si scarica solo se lo chiedi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large photo: %@ px preview. The original is downloaded only if you ask."
+          }
+        }
+      }
+    },
+    "Foto non scaricata dal disco in cloud": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo not downloaded from the cloud drive"
+          }
+        }
+      }
+    },
+    "Foto precedente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous photo"
+          }
+        }
+      }
+    },
+    "Foto successiva": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next photo"
+          }
+        }
+      }
+    },
+    "FotoTag": {},
+    "FotoTag le scarica una alla volta e poi le toglie di nuovo dal Mac: delle foto prepara la ricerca e un'anteprima, dei RAW legge data e fotocamera per collegarli ai JPG (ogni RAW è un download intero, 15-60 MB). Ci vuole tempo e traffico di rete; puoi fermarlo quando vuoi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FotoTag downloads them one at a time and then removes them from the Mac again: for photos it prepares search and a preview, for RAW files it reads date and camera to link them to the JPGs (each RAW is a full download, 15-60 MB). It takes time and network traffic; you can stop it whenever you like."
+          }
+        }
+      }
+    },
+    "Generali": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        }
+      }
+    },
+    "Generico": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generic"
+          }
+        }
+      }
+    },
+    "Gli originali vengono copiati in ~/Library/Application Support/FotoTag/Copie di sicurezza e tenuti 5 giorni.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The originals are copied to ~/Library/Application Support/FotoTag/Copie di sicurezza and kept for 5 days."
+          }
+        }
+      }
+    },
+    "Hugging Face non risponde per %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hugging Face isn't responding for %@"
+          }
+        }
+      }
+    },
+    "I modelli vengono da Hugging Face e girano solo su questo Mac: le foto non escono mai dal computer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The models come from Hugging Face and run only on this Mac: your photos never leave the computer."
+          }
+        }
+      }
+    },
+    "ISO di esposizione": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exposure ISO"
+          }
+        }
+      }
+    },
+    "Ignora": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignore"
+          }
+        }
+      }
+    },
+    "Il disco in cloud non risponde: la scrittura si è fermata dopo %lld foto di %lld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The cloud drive isn't responding: writing stopped after %lld of %lld photos."
+          }
+        }
+      }
+    },
+    "Il file non si legge per intero. Clic o Esc per tornare alla foto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The file can't be read completely. Click or Esc to go back to the photo."
+          }
+        }
+      }
+    },
+    "Il modello %@ non è ancora sul Mac. Scaricalo in FotoTag ▸ Impostazioni ▸ Modelli (%.1f GB, una volta sola).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The %@ model isn't on this Mac yet. Download it in FotoTag ▸ Settings ▸ Models (%.1f GB, only once)."
+          }
+        }
+      }
+    },
+    "Il nome della cartella della foto diventa un tag (la data viene dallo scatto)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The photo's folder name becomes a tag (the date comes from the shot)"
+          }
+        }
+      }
+    },
+    "Il numero indica in quante foto compare; × lo toglie da tutte.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The number shows how many photos have it; × removes it from all of them."
+          }
+        }
+      }
+    },
+    "Importa da un file…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import from a File…"
+          }
+        }
+      }
+    },
+    "In sottofondo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In the Background"
+          }
+        }
+      }
+    },
+    "In sottofondo si ferma durante l'analisi e quando il Mac è a batteria. Le foto solo nel disco in cloud non si scaricano mai da sole.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In the background it pauses during analysis and when the Mac is on battery. Photos only on the cloud drive are never downloaded on their own."
+          }
+        }
+      }
+    },
+    "In tutte le cartelle non c'è altro da fare qui.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There's nothing else to do here in any folder."
+          }
+        }
+      }
+    },
+    "Includere %@ del disco in cloud?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include %@ from the cloud drive?"
+          }
+        }
+      }
+    },
+    "Includi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include"
+          }
+        }
+      }
+    },
+    "Includi (le scarico una alla volta e poi le libero)…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include (I download them one at a time and then free the space)…"
+          }
+        }
+      }
+    },
+    "Includi le sottocartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include Subfolders"
+          }
+        }
+      }
+    },
+    "Includi le sottocartelle (⌥⌘S)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include subfolders (⌥⌘S)"
+          }
+        }
+      }
+    },
+    "Indicizzo %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing %@…"
+          }
+        }
+      }
+    },
+    "Indicizzo %@… %@ foto in %lld cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing %1$@… %2$@ photos in %3$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 3,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg folder"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg folders"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indicizzo %1$@… %2$@ foto in %3$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 3,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg cartella"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg cartelle"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Indicizzo gli originali…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing the originals…"
+          }
+        }
+      }
+    },
+    "Indicizzo…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indexing…"
+          }
+        }
+      }
+    },
+    "Informazioni su FotoTag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About FotoTag"
+          }
+        }
+      }
+    },
+    "L'originale non è arrivato dal disco in cloud: riprova più tardi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The original didn't arrive from the cloud drive: try again later."
+          }
+        }
+      }
+    },
+    "La cartella e le sue sottocartelle non contengono foto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The folder and its subfolders contain no photos."
+          }
+        }
+      }
+    },
+    "La cartella indica la digitalizzazione (%@), non lo scatto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The folder gives the digitization date (%@), not the shot."
+          }
+        }
+      }
+    },
+    "Lato lungo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Long Side"
+          }
+        }
+      }
+    },
+    "Le cartelle che lo usano tornano a Generico. Reimportandolo dal file tornano a questo profilo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders that use it go back to Generic. Importing it again from the file brings them back to this profile."
+          }
+        }
+      }
+    },
+    "Le foto confermate sono già scritte nei file.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The confirmed photos are already written to the files."
+          }
+        }
+      }
+    },
+    "Le parole chiave già presenti nei file restano.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keywords already in the files stay."
+          }
+        }
+      }
+    },
+    "Leggo i RAW del disco in cloud: %@ di %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading RAW files on the cloud drive: %@ of %@"
+          }
+        }
+      }
+    },
+    "Lingua dei tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tag Language"
+          }
+        }
+      }
+    },
+    "Lingua dei tag scritti nei file e del prompt del modello. Le foto già analizzate restano nella lingua di prima: per cambiarle, rianalizzale. I tag fissi (origine, data, pellicola…) cambiano lingua alla prossima scrittura nei file.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language of the tags written to the files and of the model prompt. Photos already analyzed keep their language: to change them, reanalyze them. Fixed tags (origin, date, film…) change language at the next write to the files."
+          }
+        }
+      }
+    },
+    "Miniature più grandi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Larger Thumbnails"
+          }
+        }
+      }
+    },
+    "Miniature più piccole": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smaller Thumbnails"
+          }
+        }
+      }
+    },
+    "Modelli": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Models"
+          }
+        }
+      }
+    },
+    "Modello di ricerca da scaricare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search model to download"
+          }
+        }
+      }
+    },
+    "Modello non caricato: %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model not loaded: %@."
+          }
+        }
+      }
+    },
+    "Modello per l'analisi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysis Model"
+          }
+        }
+      }
+    },
+    "Modifica didascalia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Caption"
+          }
+        }
+      }
+    },
+    "Modifica…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit…"
+          }
+        }
+      }
+    },
+    "Mostra": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show"
+          }
+        }
+      }
+    },
+    "Mostra il numero di foto da rivedere sull'icona": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show the number of photos to review on the icon"
+          }
+        }
+      }
+    },
+    "Mostra l'avanzamento sull'icona nel Dock": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show progress on the Dock icon"
+          }
+        }
+      }
+    },
+    "Mostra la foto nel Finder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show the Photo in Finder"
+          }
+        }
+      }
+    },
+    "Mostra la revisione": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Review"
+          }
+        }
+      }
+    },
+    "Mostra la revisione (⌥⌘I)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show the review (⌥⌘I)"
+          }
+        }
+      }
+    },
+    "Mostra le copie di sicurezza": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Backups"
+          }
+        }
+      }
+    },
+    "Mostra le foto da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Photos to Review"
+          }
+        }
+      }
+    },
+    "Mostra nel Finder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show in Finder"
+          }
+        }
+      }
+    },
+    "Mostra solo le foto in questo stato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show only photos in this state"
+          }
+        }
+      }
+    },
+    "Mostra tutte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show All"
+          }
+        }
+      }
+    },
+    "Nascondi dall'elenco": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide from the List"
+          }
+        }
+      }
+    },
+    "Nascondi la revisione (⌥⌘I)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide the review (⌥⌘I)"
+          }
+        }
+      }
+    },
+    "Nelle cartelle di pellicola, una data AAAAMMGG è il giorno della scansione (si tiene solo il mese)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In film folders, a YYYYMMDD date is the scan day (only the month is kept)"
+          }
+        }
+      }
+    },
+    "Nessun risultato da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No results to review"
+          }
+        }
+      }
+    },
+    "Nessun tag dal percorso.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tags from the path."
+          }
+        }
+      }
+    },
+    "Nessuna cartella": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Folder"
+          }
+        }
+      }
+    },
+    "Nessuna foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Photos"
+          }
+        }
+      }
+    },
+    "Nessuna foto analizzata.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No photos analyzed."
+          }
+        }
+      }
+    },
+    "Nessuna foto con errore": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Photos with Errors"
+          }
+        }
+      }
+    },
+    "Nessuna foto confermata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Confirmed Photos"
+          }
+        }
+      }
+    },
+    "Nessuna foto confermata da scrivere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No confirmed photos to write"
+          }
+        }
+      }
+    },
+    "Nessuna foto da analizzare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No photos to analyze"
+          }
+        }
+      }
+    },
+    "Nessuna foto da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Photos to Review"
+          }
+        }
+      }
+    },
+    "Nessuna foto da scrivere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Photos to Write"
+          }
+        }
+      }
+    },
+    "Nessuna foto scelta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Photo Chosen"
+          }
+        }
+      }
+    },
+    "Nessuna foto trovata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Photos Found"
+          }
+        }
+      }
+    },
+    "Nessuna sigla.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No codes."
+          }
+        }
+      }
+    },
+    "Niente più da rivedere qui": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing left to review here"
+          }
+        }
+      }
+    },
+    "Nome": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        }
+      }
+    },
+    "Nome del profilo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile Name"
+          }
+        }
+      }
+    },
+    "Nomi di cartella": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder Names"
+          }
+        }
+      }
+    },
+    "Non cancella nulla: si rimette da Impostazioni ▸ Generali ▸ Cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deletes nothing: bring it back from Settings ▸ General ▸ Folders"
+          }
+        }
+      }
+    },
+    "Non si apre al 100%": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't open at 100%"
+          }
+        }
+      }
+    },
+    "Non si indicizza più; foto e analisi già presenti restano": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No longer indexed; photos and analyses already there stay"
+          }
+        }
+      }
+    },
+    "Non usato da nessuna cartella. Si sceglie in Generali ▸ Cartelle.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not used by any folder. Choose it in General ▸ Folders."
+          }
+        }
+      }
+    },
+    "Nuovo disco: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New drive: %@"
+          }
+        }
+      }
+    },
+    "Nuovo profilo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Profile"
+          }
+        }
+      }
+    },
+    "Nuovo profilo da Generico": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Profile from Generic"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Originale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original"
+          }
+        }
+      }
+    },
+    "Originale solo sul disco in cloud: qui si vede l'anteprima salvata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original only on the cloud drive: this is the saved preview"
+          }
+        }
+      }
+    },
+    "Originali": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originals"
+          }
+        }
+      }
+    },
+    "Origine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Origin"
+          }
+        }
+      }
+    },
+    "Pellicola": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Film"
+          }
+        }
+      }
+    },
+    "Pellicole": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Films"
+          }
+        }
+      }
+    },
+    "Per cercare nelle foto serve il modello SigLIP 2: si scarica una volta sola (0,75 GB) e occupa 1,5 GB sul disco.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching photos needs the SigLIP 2 model: it's downloaded only once (0.75 GB) and takes 1.5 GB on disk."
+          }
+        }
+      }
+    },
+    "Per i Mac con 8 GB. Circa 2 volte più veloce, ma inventa più dettagli e riconosce meno luoghi: rivedi i tag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For Macs with 8 GB. About 2 times faster, but it invents more details and recognizes fewer places: review the tags."
+          }
+        }
+      }
+    },
+    "Per le cartelle di esportazioni: considera solo i RAW, non i JPG": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For export folders: consider only RAW files, not JPGs"
+          }
+        }
+      }
+    },
+    "Per riconoscere il contenuto delle foto FotoTag usa %@: %@ GB, si scarica una volta sola da Hugging Face. Le foto non escono mai dal Mac.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To recognize what's in your photos FotoTag uses %@: %@ GB, downloaded only once from Hugging Face. Your photos never leave the Mac."
+          }
+        }
+      }
+    },
+    "Per vedere la foto al 100% scarica prima l'originale (pulsante sotto la foto).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To see the photo at 100%, first download the original (button below the photo)."
+          }
+        }
+      }
+    },
+    "Percorso di una foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Path of a photo"
+          }
+        }
+      }
+    },
+    "Più tardi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Later"
+          }
+        }
+      }
+    },
+    "Poca memoria libera": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low Free Memory"
+          }
+        }
+      }
+    },
+    "Prepara la ricerca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prepare Search"
+          }
+        }
+      }
+    },
+    "Preparo la ricerca: %@ di %@ foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing search: %@ of %@ photos"
+          }
+        }
+      }
+    },
+    "Preparo la ricerca…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing search…"
+          }
+        }
+      }
+    },
+    "Profili": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles"
+          }
+        }
+      }
+    },
+    "Profili non letti (%@): %@. Le modifiche ai profili non verranno salvate.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles not read (%@): %@. Changes to profiles won't be saved."
+          }
+        }
+      }
+    },
+    "Profili non salvati: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles not saved: %@"
+          }
+        }
+      }
+    },
+    "Profili non salvati: il file dei profili non si è letto all'avvio.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles not saved: the profiles file couldn't be read at launch."
+          }
+        }
+      }
+    },
+    "Profilo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "Profilo non esportato: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile not exported: %@"
+          }
+        }
+      }
+    },
+    "Profilo per i nuovi accessi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile for new locations"
+          }
+        }
+      }
+    },
+    "Profilo per leggere anno e mese dalle cartelle degli originali": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile for reading year and month from the originals' folders"
+          }
+        }
+      }
+    },
+    "Profilo «%@» mancante: vale Generico finché non lo importi in Profili": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile “%@” missing: Generic applies until you import it in Profiles"
+          }
+        }
+      }
+    },
+    "Prova": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try It"
+          }
+        }
+      }
+    },
+    "Prova con altre parole, ad esempio un luogo, un oggetto o un momento della giornata.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try other words, for example a place, an object or a time of day."
+          }
+        }
+      }
+    },
+    "Qualità piena. Circa 8 s per foto su M2 Pro, 6,4 GB di memoria durante l'analisi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full quality. About 8 s per photo on M2 Pro, 6.4 GB of memory during analysis."
+          }
+        }
+      }
+    },
+    "Questa cartella non ha foto proprie. Le sottocartelle si vedono con Vista ▸ Includi le sottocartelle.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This folder has no photos of its own. Show subfolders with View ▸ Include Subfolders."
+          }
+        }
+      }
+    },
+    "Queste foto sono su un disco in cloud: verranno modificati gli originali, e la modifica arriverà anche lì.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "These photos are on a cloud drive: the originals will be changed, and the change will reach the cloud too."
+          }
+        }
+      }
+    },
+    "Questo Mac ha %.0f GB di memoria: consigliato %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Mac has %.0f GB of memory: %@ recommended."
+          }
+        }
+      }
+    },
+    "Qwen3-VL 4B (leggero)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qwen3-VL 4B (light)"
+          }
+        }
+      }
+    },
+    "RAW senza JPG: per ora solo da vedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RAW without JPG: view only for now"
+          }
+        }
+      }
+    },
+    "Revisione": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review"
+          }
+        }
+      }
+    },
+    "Rianalizza": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reanalyze"
+          }
+        }
+      }
+    },
+    "Rianalizza (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reanalyze (%lld)"
+          }
+        }
+      }
+    },
+    "Riapri": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen"
+          }
+        }
+      }
+    },
+    "Riapri (%lld foto)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen (%1$#@a1@)"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Ricarico il modello dopo un errore della GPU…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reloading the model after a GPU error…"
+          }
+        }
+      }
+    },
+    "Ricerca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "Ricerca (SigLIP 2)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search (SigLIP 2)"
+          }
+        }
+      }
+    },
+    "Ricerca fermata: cerca solo nelle foto già pronte.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search stopped: it only searches photos already prepared."
+          }
+        }
+      }
+    },
+    "Ricerca in pausa durante l'analisi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search paused during analysis"
+          }
+        }
+      }
+    },
+    "Ricerca in pausa: Mac a batteria": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search paused: Mac on battery"
+          }
+        }
+      }
+    },
+    "Ricerca non riuscita: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search failed: %@"
+          }
+        }
+      }
+    },
+    "Ricerca pronta su altre %lld foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search ready on %1$#@a1@"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg more photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg more photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Riconnetti": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnect"
+          }
+        }
+      }
+    },
+    "Riconnetti cartella…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnect Folder…"
+          }
+        }
+      }
+    },
+    "Riconoscimenti": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acknowledgments"
+          }
+        }
+      }
+    },
+    "Riconoscimenti…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acknowledgments…"
+          }
+        }
+      }
+    },
+    "Rinomina": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rename"
+          }
+        }
+      }
+    },
+    "Rinomina…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rename…"
+          }
+        }
+      }
+    },
+    "Riprendi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        }
+      }
+    },
+    "Risultati": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Results"
+          }
+        }
+      }
+    },
+    "Rullino": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Roll"
+          }
+        }
+      }
+    },
+    "Salva un'anteprima di ogni foto analizzata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save a preview of every analyzed photo"
+          }
+        }
+      }
+    },
+    "Scarica (%.1f GB)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download (%.1f GB)"
+          }
+        }
+      }
+    },
+    "Scarica (0,75 GB)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download (0.75 GB)"
+          }
+        }
+      }
+    },
+    "Scarica e analizza": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download and Analyze"
+          }
+        }
+      }
+    },
+    "Scarica il modello di ricerca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download the Search Model"
+          }
+        }
+      }
+    },
+    "Scarica l'originale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download the Original"
+          }
+        }
+      }
+    },
+    "Scarico %@: %@ GB…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading %@: %@ GB…"
+          }
+        }
+      }
+    },
+    "Scarico %@: %@ di %@ GB": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading %@: %@ of %@ GB"
+          }
+        }
+      }
+    },
+    "Scartate dalla pulizia: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discarded by cleanup: %@"
+          }
+        }
+      }
+    },
+    "Scegli": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose"
+          }
+        }
+      }
+    },
+    "Scegli cartella o disco…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Folder or Drive…"
+          }
+        }
+      }
+    },
+    "Scegli foto…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Photo…"
+          }
+        }
+      }
+    },
+    "Scegli l'originale (RAW o scansione) di %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the original (RAW or scan) of %@"
+          }
+        }
+      }
+    },
+    "Scegli la cartella che contiene tutte le tue foto, ad esempio Immagini o un disco esterno. FotoTag trova da solo RAW, HEIC, JPG e TIFF nelle sottocartelle e non modifica nulla.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the folder that holds all your photos, for example Pictures or an external drive. FotoTag finds RAW, HEIC, JPG and TIFF files in subfolders by itself and changes nothing."
+          }
+        }
+      }
+    },
+    "Scegli la cartella che contiene tutte le tue foto, ad esempio Immagini o un disco esterno: FotoTag le trova anche nelle sottocartelle. Le foto non vengono modificate e nessuna analisi parte da sola.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the folder that holds all your photos, for example Pictures or an external drive: FotoTag finds them in subfolders too. Photos aren't changed and no analysis starts on its own."
+          }
+        }
+      }
+    },
+    "Scegli le cartelle dove stanno i RAW e le scansioni originali. Verranno solo lette.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the folders that hold the RAW files and original scans. They will only be read."
+          }
+        }
+      }
+    },
+    "Scegli un profilo esportato da FotoTag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a profile exported from FotoTag"
+          }
+        }
+      }
+    },
+    "Scegli un risultato per rivederlo e confermarne i tag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a result to review it and confirm its tags."
+          }
+        }
+      }
+    },
+    "Scegli una cartella nella barra laterale, o dai accesso a un disco con File ▸ Aggiungi disco o cartella… (⌘O).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a folder in the sidebar, or give access to a drive with File ▸ Add Drive or Folder… (⌘O)."
+          }
+        }
+      }
+    },
+    "Scegli una foto nella griglia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a photo in the grid."
+          }
+        }
+      }
+    },
+    "Scegli…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose…"
+          }
+        }
+      }
+    },
+    "Scollega": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlink"
+          }
+        }
+      }
+    },
+    "Scrittura": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Writing"
+          }
+        }
+      }
+    },
+    "Scrivere tag e didascalie in %lld foto?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Write tags and captions to %1$#@a1@?"
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg photos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Scrivi nei file": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Write to Files"
+          }
+        }
+      }
+    },
+    "Scrivi nei file…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Write to Files…"
+          }
+        }
+      }
+    },
+    "Scrivo… %lld/%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Writing… %lld/%lld"
+          }
+        }
+      }
+    },
+    "Se esiste già un .xmp dell'altro tipo, viene aggiornato anch'esso.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If an .xmp of the other kind already exists, it is updated too."
+          }
+        }
+      }
+    },
+    "Segna da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark to Review"
+          }
+        }
+      }
+    },
+    "Serve a vedere le foto dei dischi in cloud senza scaricarle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lets you see photos on cloud drives without downloading them"
+          }
+        }
+      }
+    },
+    "Serve il modello per l'analisi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The analysis model is needed"
+          }
+        }
+      }
+    },
+    "Serve per «Cerca nelle foto». Google, licenza Apache 2.0.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used for “Search photos”. Google, Apache 2.0 license."
+          }
+        }
+      }
+    },
+    "Si scrivono nei file solo le foto confermate: conferma i tag prima di scrivere.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only confirmed photos are written to the files: confirm the tags before writing."
+          }
+        }
+      }
+    },
+    "SigLIP: nessun embedding": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SigLIP: no embedding"
+          }
+        }
+      }
+    },
+    "Sigle delle pellicole nei nomi delle cartelle e nome completo da usare nei tag. Se il nome è vuoto resta la sigla.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Film codes in folder names and the full name to use in tags. If the name is empty, the code stays."
+          }
+        }
+      }
+    },
+    "Solo dal percorso: data di scatto, origine e bianco e nero si leggono dal file, che qui non è sul Mac.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From the path only: shooting date, origin and black and white are read from the file, which isn't on this Mac."
+          }
+        }
+      }
+    },
+    "Solo quando cerco": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only When I Search"
+          }
+        }
+      }
+    },
+    "Sostituendolo si perdono le modifiche fatte qui dopo l'esportazione. Le cartelle che lo usano restano a lui.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replacing it loses the changes made here after the export. Folders that use it stay with it."
+          }
+        }
+      }
+    },
+    "Sostituisci": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace"
+          }
+        }
+      }
+    },
+    "Sottocartelle da non elencare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subfolders not to list"
+          }
+        }
+      }
+    },
+    "Spazio insufficiente: servono %.1f GB liberi (il modello e %.0f GB di margine), ce ne sono %.1f.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not enough space: %.1f GB free needed (the model plus %.0f GB of margin), there are %.1f."
+          }
+        }
+      }
+    },
+    "Struttura anno ▸ mese ▸ rullino: data, rullino e pellicola dai nomi delle cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Year ▸ month ▸ roll structure: date, roll and film from the folder names"
+          }
+        }
+      }
+    },
+    "Su questo Mac potrebbe rallentare molto: serve più memoria.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It may be very slow on this Mac: it needs more memory."
+          }
+        }
+      }
+    },
+    "Su questo Mac potrebbe rallentare molto: serve più memoria. Si cambia in Impostazioni ▸ Modelli.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It may be very slow on this Mac: it needs more memory. Change it in Settings ▸ Models."
+          }
+        }
+      }
+    },
+    "Sul disco interno restano meno di 10 GB: conviene una cartella sul disco esterno.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Less than 10 GB left on the internal disk: a folder on an external drive is better."
+          }
+        }
+      }
+    },
+    "Tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        }
+      }
+    },
+    "Tag cambiati dopo l'ultima scrittura nei file": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags changed after the last write to the files"
+          }
+        }
+      }
+    },
+    "Tag delle foto selezionate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags of the selected photos"
+          }
+        }
+      }
+    },
+    "Tag fissi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fixed Tags"
+          }
+        }
+      }
+    },
+    "Tag fissi delle foto selezionate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fixed tags of the selected photos"
+          }
+        }
+      }
+    },
+    "Tag scritti nei file": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags written to the files"
+          }
+        }
+      }
+    },
+    "Togli": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove"
+          }
+        }
+      }
+    },
+    "Togli %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@"
+          }
+        }
+      }
+    },
+    "Togli %@ da tutte le foto selezionate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@ from all selected photos"
+          }
+        }
+      }
+    },
+    "Togli il tag %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove the tag %@"
+          }
+        }
+      }
+    },
+    "Togli tag «%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove Tag “%@”"
+          }
+        }
+      }
+    },
+    "Togli «%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove “%@”"
+          }
+        }
+      }
+    },
+    "Togli «%@» da tutte le foto selezionate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove “%@” from all selected photos"
+          }
+        }
+      }
+    },
+    "Tono": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tone"
+          }
+        }
+      }
+    },
+    "Torna alla griglia (spazio o Esc)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to the grid (space or Esc)"
+          }
+        }
+      }
+    },
+    "Torna alle foto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to the photos"
+          }
+        }
+      }
+    },
+    "Tutte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
+          }
+        }
+      }
+    },
+    "Tutte le cartelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All Folders"
+          }
+        }
+      }
+    },
+    "Tutte le foto analizzate di «%@» hanno già l'anteprima.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All analyzed photos in “%@” already have a preview."
+          }
+        }
+      }
+    },
+    "Un RAW senza JPG resta solo da vedere: per ora FotoTag analizza JPG, HEIC e TIFF. Esporta un JPG per analizzarli.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A RAW file without a JPG can only be viewed: for now FotoTag analyzes JPG, HEIC and TIFF. Export a JPG to analyze it."
+          }
+        }
+      }
+    },
+    "Usati nelle foto vicine di questo rullino": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used in nearby photos of this roll"
+          }
+        }
+      }
+    },
+    "Usati spesso da te": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Often used by you"
+          }
+        }
+      }
+    },
+    "Usato da: %@. Si cambia in Generali ▸ Cartelle.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used by: %@. Change it in General ▸ Folders."
+          }
+        }
+      }
+    },
+    "Vai a «%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go to “%@”"
+          }
+        }
+      }
+    },
+    "Valore incerto: correggilo o clicca per confermarlo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uncertain value: correct it or click to confirm it"
+          }
+        }
+      }
+    },
+    "analogica": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "analog"
+          }
+        }
+      }
+    },
+    "aperta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "expanded"
+          }
+        }
+      }
+    },
+    "bianco e nero": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "black and white"
+          }
+        }
+      }
+    },
+    "chiusa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "collapsed"
+          }
+        }
+      }
+    },
+    "circa %lld KB a foto, per %@ foto circa %@ MB": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "about %lld KB per photo, for %@ photos about %@ MB"
+          }
+        }
+      }
+    },
+    "colore": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "color"
+          }
+        }
+      }
+    },
+    "confermata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "confirmed"
+          }
+        }
+      }
+    },
+    "contesto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "context"
+          }
+        }
+      }
+    },
+    "corretti a mano": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "corrected by hand"
+          }
+        }
+      }
+    },
+    "da analizzare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to analyze"
+          }
+        }
+      }
+    },
+    "da cartella, EXIF e colori": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "from folder, EXIF and colors"
+          }
+        }
+      }
+    },
+    "da riscrivere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to rewrite"
+          }
+        }
+      }
+    },
+    "da rivedere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to review"
+          }
+        }
+      }
+    },
+    "da scrivere": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to write"
+          }
+        }
+      }
+    },
+    "da verificare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to check"
+          }
+        }
+      }
+    },
+    "data": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "date"
+          }
+        }
+      }
+    },
+    "digitale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "digital"
+          }
+        }
+      }
+    },
+    "download non riuscito: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "download failed: %@"
+          }
+        }
+      }
+    },
+    "errore": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "error"
+          }
+        }
+      }
+    },
+    "errore della GPU (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GPU error (%@)"
+          }
+        }
+      }
+    },
+    "es. 1048": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. 1048"
+          }
+        }
+      }
+    },
+    "es. Ilford HP5 Plus 400": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. Ilford HP5 Plus 400"
+          }
+        }
+      }
+    },
+    "esposizione": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "exposure"
+          }
+        }
+      }
+    },
+    "file incompleto: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "incomplete file: %@"
+          }
+        }
+      }
+    },
+    "file rovinato durante il download: %@. Riprova.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "file damaged during download: %@. Try again."
+          }
+        }
+      }
+    },
+    "immagine illeggibile: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "unreadable image: %@"
+          }
+        }
+      }
+    },
+    "impossibile scrivere %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "can't write %@"
+          }
+        }
+      }
+    },
+    "in analisi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "being analyzed"
+          }
+        }
+      }
+    },
+    "in uso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "in use"
+          }
+        }
+      }
+    },
+    "incerto: da verificare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "uncertain: to check"
+          }
+        }
+      }
+    },
+    "luogo, evento…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "place, event…"
+          }
+        }
+      }
+    },
+    "modello SigLIP senza ingresso immagine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SigLIP model without an image input"
+          }
+        }
+      }
+    },
+    "modello non trovato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "model not found"
+          }
+        }
+      }
+    },
+    "nessuna": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "none"
+          }
+        }
+      }
+    },
+    "nessuno": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "none"
+          }
+        }
+      }
+    },
+    "nome completo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "full name"
+          }
+        }
+      }
+    },
+    "non collegato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not connected"
+          }
+        }
+      }
+    },
+    "non scritta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not written"
+          }
+        }
+      }
+    },
+    "non trovato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not found"
+          }
+        }
+      }
+    },
+    "nuova sigla, es. portra 400": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "new code, e.g. portra 400"
+          }
+        }
+      }
+    },
+    "origine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "origin"
+          }
+        }
+      }
+    },
+    "pellicola": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "film"
+          }
+        }
+      }
+    },
+    "probabile": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "likely"
+          }
+        }
+      }
+    },
+    "rullino": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "roll"
+          }
+        }
+      }
+    },
+    "rullino %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "roll %@"
+          }
+        }
+      }
+    },
+    "scelto a mano": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "chosen by hand"
+          }
+        }
+      }
+    },
+    "scollegato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "unlinked"
+          }
+        }
+      }
+    },
+    "scritta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "written"
+          }
+        }
+      }
+    },
+    "sicuro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "certain"
+          }
+        }
+      }
+    },
+    "sicuro: stessa data di scatto · probabile: cartella coerente · incerto: più candidati simili. Il sidecar si scrive solo per «sicuro» o scelto a mano.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "certain: same shooting date · likely: consistent folder · uncertain: several similar candidates. The sidecar is written only for “certain” or chosen by hand."
+          }
+        }
+      }
+    },
+    "sidecar di ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidecar for "
+          }
+        }
+      }
+    },
+    "sidecar senza rdf:Description": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidecar without rdf:Description"
+          }
+        }
+      }
+    },
+    "solo RAW": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RAW only"
+          }
+        }
+      }
+    },
+    "sul Mac": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "on this Mac"
+          }
+        }
+      }
+    },
+    "tag fissi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "fixed tags"
+          }
+        }
+      }
+    },
+    "tono": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tone"
+          }
+        }
+      }
+    },
+    "valori diversi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "different values"
+          }
+        }
+      }
+    },
+    "«%@»": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@”"
+          }
+        }
+      }
+    },
+    "«%@» c'è già": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” already exists"
+          }
+        }
+      }
+    },
+    "«%@» non è un profilo di FotoTag: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” isn't a FotoTag profile: %@"
+          }
+        }
+      }
+    },
+    "«%@» è tutta rivista": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” is fully reviewed"
+          }
+        }
+      }
+    },
+    "· aggiungi le cartelle degli originali in Impostazioni": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "· add the originals' folders in Settings"
+          }
+        }
+      }
+    },
+    "…": {},
+    "↑ ↓ scegli, ↩ aggiungi, Esc chiudi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "↑ ↓ choose, ↩ add, Esc close"
+          }
+        }
+      }
+    },
+    "↩ conferma e passa alla prossima, ← → cambia foto, spazio ingrandisce, ⌘Z annulla": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "↩ confirm and go to the next, ← → change photo, space enlarges, ⌘Z undo"
+          }
+        }
+      }
+    },
+    "↩ conferma e prossima, ← → cambia foto, spazio o Esc torna alla griglia, ⌘Z annulla": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "↩ confirm and next, ← → change photo, space or Esc back to the grid, ⌘Z undo"
+          }
+        }
+      }
+    },
+    "⌘-clic aggiunge o toglie una foto, ⇧-clic seleziona un intervallo, ⌘A le seleziona tutte.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘-click adds or removes a photo, ⇧-click selects a range, ⌘A selects all."
+          }
+        }
+      }
+    },
+    "⌥↩": {}
+  },
+  "version": "1.0"
+}
