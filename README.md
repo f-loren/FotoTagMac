@@ -76,8 +76,7 @@ The **Generic** profile is a good starting point. Profiles can be shared as JSON
 
 **Which languages does it support?** English and Italian, for both the interface and the keywords. The interface follows your Mac's language; on a Mac set to another language without English in its preferred languages, it appears in Italian. Photos you've already analyzed keep their keywords in the original language until you analyze them again.
 
-**Does it work with Lightroom, Photomator or darktable?** FotoTag writes keywords to standard XMP fields (`dc:subject`, plus Lightroom-style hierarchical keywords) and the caption to XMP and IPTC. For RAW files you can choose the sidecar naming used by Lightroom (`DSC_1234.xmp`, the default) or darktable (`DSC_1234.NEF.xmp`). When FotoTag updates an existing sidecar, it changes only the keywords and caption; everything else, including darktable's edit history, is preserved exactly.
-<!-- DRAFT: confirm with a real test in each app before publishing. -->
+**Does it work with Lightroom, Photomator or darktable?** FotoTag writes keywords to standard XMP fields (`dc:subject`, plus Lightroom-style hierarchical keywords) and the caption to XMP and IPTC. For RAW files you can choose the sidecar naming used by Lightroom (`DSC_1234.xmp`, the default) or darktable (`DSC_1234.NEF.xmp`). When FotoTag updates an existing sidecar, it changes only the keywords and caption; everything else, including darktable's edit history, is preserved exactly. These are standard fields that Lightroom, Photomator and darktable read, but FotoTag hasn't been tested in each of them yet. If you use it with one of them, please open an issue and tell us how it went.
 
 **Does it run on Intel Macs?** No. MLX requires Apple silicon.
 

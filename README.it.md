@@ -76,8 +76,7 @@ Il profilo **Generico** va bene per cominciare. I profili si scambiano come file
 
 **In che lingue funziona?** Italiano e inglese, sia l'interfaccia sia i tag. L'interfaccia segue la lingua del Mac; su un Mac in un'altra lingua, senza l'inglese fra le lingue preferite, appare in italiano. Le foto già analizzate tengono i tag nella lingua di prima finché non le rianalizzi.
 
-**Funziona con Lightroom, Photomator o darktable?** FotoTag scrive i tag nei campi XMP standard (`dc:subject`, più le parole chiave gerarchiche di Lightroom) e la didascalia in XMP e IPTC. Per i RAW puoi scegliere il nome del file `.xmp` usato da Lightroom (`DSC_1234.xmp`, quello di serie) o da darktable (`DSC_1234.NEF.xmp`). Quando aggiorna un `.xmp` esistente, FotoTag cambia solo tag e didascalia; tutto il resto, compresa la storia delle modifiche di darktable, resta identico.
-<!-- BOZZA: da confermare con una prova vera in ogni programma prima di pubblicare. -->
+**Funziona con Lightroom, Photomator o darktable?** FotoTag scrive i tag nei campi XMP standard (`dc:subject`, più le parole chiave gerarchiche di Lightroom) e la didascalia in XMP e IPTC. Per i RAW puoi scegliere il nome del file `.xmp` usato da Lightroom (`DSC_1234.xmp`, quello di serie) o da darktable (`DSC_1234.NEF.xmp`). Quando aggiorna un `.xmp` esistente, FotoTag cambia solo tag e didascalia; tutto il resto, compresa la storia delle modifiche di darktable, resta identico. Sono campi standard che Lightroom, Photomator e darktable leggono, ma FotoTag non è ancora stato provato in ognuno. Se lo usi con uno di questi programmi, apri una issue e raccontaci com'è andata.
 
 **Funziona sui Mac Intel?** No: MLX richiede un chip Apple.
 
