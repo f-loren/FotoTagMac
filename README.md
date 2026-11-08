@@ -4,7 +4,7 @@
 
 **Automatic keywords and captions for your photo archive, generated entirely on your Mac.**
 
-FotoTag looks at your photos and suggests keywords and a short caption for each one. You review the suggestions, and FotoTag writes the ones you approve into the image files, or into an `.xmp` sidecar for RAW files. After that, you can find any photo by describing it: "kids at the beach", "fog over the hills", "bike in the rain".
+FotoTag looks at your photos and suggests keywords and a short caption for each one. You review the suggestions, and FotoTag writes the ones you approve into the image files, or into an `.xmp` sidecar for RAW files. After that, you can find any photo by describing it: "kids at the beach", "fog on the hills", "bike in the rain".
 
 It's built for photographers with large archives, including film scans, whether they live on an external drive, a NAS or a cloud folder. Nothing is uploaded: the AI models run locally on Apple silicon.
 

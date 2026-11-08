@@ -7,7 +7,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": " (copy)"
+            "value": " copy"
           }
         }
       }
@@ -47,7 +47,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": " Takes 1.5 GB on disk."
+            "value": " Uses 1.5 GB of disk space."
           }
         }
       }
@@ -57,7 +57,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": " · about %lld h"
+            "value": " · about %lld h left"
           }
         }
       }
@@ -67,7 +67,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": " · about %lld min"
+            "value": " · about %lld min left"
           }
         }
       }
@@ -77,7 +77,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": " · less than 2 min"
+            "value": " · under 2 min left"
           }
         }
       }
@@ -87,7 +87,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ RAW files on the cloud drive can't be linked to their JPGs yet."
+            "value": "%@ RAW files on your cloud drive can't be matched to their JPGs yet."
           }
         }
       }
@@ -97,7 +97,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ photos on the cloud drive can't be searched."
+            "value": "%@ photos on your cloud drive aren't searchable yet."
           }
         }
       }
@@ -107,7 +107,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ in all folders"
+            "value": "%@ across all folders"
           }
         }
       }
@@ -117,7 +117,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ hasn't been downloaded from the cloud drive yet"
+            "value": "%@ hasn't downloaded from your cloud drive yet"
           }
         }
       }
@@ -127,7 +127,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ hasn't been downloaded from the cloud drive yet: it was not changed"
+            "value": "%@ hasn't downloaded from your cloud drive yet, so it wasn't changed"
           }
         }
       }
@@ -137,7 +137,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: analysis finished"
+            "value": "%@: Analysis Complete"
           }
         }
       }
@@ -147,7 +147,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$@: analysis stopped after %2$#@a1@"
+            "value": "%1$@: Analysis stopped after %2$#@a1@"
           },
           "substitutions": {
             "a1": {
@@ -179,7 +179,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: a different caption was already there, I left it"
+            "value": "%@: kept the existing caption, which was different"
           }
         }
       }
@@ -189,7 +189,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: unreadable file"
+            "value": "%@: can't read the file"
           }
         }
       }
@@ -199,7 +199,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: RAW files are never changed, only the .xmp is written"
+            "value": "%@: RAW files are never modified; only the .xmp sidecar is written"
           }
         }
       }
@@ -209,7 +209,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: couldn't create the temporary file (read-only folder?)"
+            "value": "%@: couldn't create a temporary file (is the folder read-only?)"
           }
         }
       }
@@ -219,7 +219,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: writing would have changed the image, the file was not changed"
+            "value": "%@: writing would have altered the image, so the file was left unchanged"
           }
         }
       }
@@ -229,7 +229,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: writing failed %@"
+            "value": "%@: couldn't write %@"
           }
         }
       }
@@ -239,7 +239,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: existing sidecar can't be read, I didn't touch it"
+            "value": "%@: can't read the existing sidecar, so it was left alone"
           }
         }
       }
@@ -249,7 +249,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: check failed"
+            "value": "%@: verification failed"
           }
         }
       }
@@ -259,7 +259,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: check failed, missing %@"
+            "value": "%@: verification failed, missing %@"
           }
         }
       }
@@ -269,7 +269,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: check failed, missing %@ and the caption"
+            "value": "%@: verification failed, missing %@ and the caption"
           }
         }
       }
@@ -280,7 +280,29 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld JPG: tags and caption inside the file. The image is not recompressed."
+            "value": "%1$#@a1@ tags and captions inside the file, without recompressing the image."
+          },
+          "substitutions": {
+            "a1": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg JPG gets"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg JPGs get"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -290,7 +312,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld RAW files without a JPG can only be viewed: for now FotoTag analyzes JPG, HEIC and TIFF. Export a JPG to analyze them."
+            "value": "%lld RAW files have no JPG, so they can only be viewed. FotoTag currently analyzes JPG, HEIC, and TIFF; export JPGs to analyze them."
           }
         }
       }
@@ -310,7 +332,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld with errors"
+            "value": "%lld failed"
           }
         }
       }
@@ -474,7 +496,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld confirmed photos are waiting to be written to the files."
+            "value": "%lld confirmed photos haven't been written to their files yet."
           }
         }
       }
@@ -484,7 +506,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$#@a1@ to write: tags and captions into the files, after a confirmation with the list (⌘S)"
+            "value": "Write tags and captions for %1$#@a1@ to the files. You'll see the list first (⌘S)"
           },
           "substitutions": {
             "a1": {
@@ -624,7 +646,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$#@a1@ written (%2$#@a2@), checked by reading them back."
+            "value": "%1$#@a1@ written (%2$#@a2@) and verified by reading them back."
           },
           "substitutions": {
             "a1": {
@@ -724,7 +746,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$#@a1@ selected"
+            "value": "%1$#@a1@ Selected"
           },
           "substitutions": {
             "a1": {
@@ -735,13 +757,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photo"
+                      "value": "%arg Photo"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photos"
+                      "value": "%arg Photos"
                     }
                   }
                 }
@@ -816,7 +838,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$#@a1@ linked with low certainty get nothing: check them in the review."
+            "value": "%1$#@a1@ matched with low confidence will be skipped. Check them in the review panel."
           },
           "substitutions": {
             "a1": {
@@ -848,7 +870,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%1$#@a1@: for RAW files only the .xmp next to them is written, the RAW is never touched."
+            "value": "%1$#@a1@ an .xmp sidecar. RAW files are never modified."
           },
           "substitutions": {
             "a1": {
@@ -859,13 +881,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg linked original"
+                      "value": "%arg matched original gets"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg linked originals"
+                      "value": "%arg matched originals get"
                     }
                   }
                 }
@@ -961,7 +983,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": ", %lld with errors"
+            "value": ", %lld failed"
           }
         }
       }
@@ -981,7 +1003,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": ", %1$#@a1@ didn't arrive from the cloud drive (try again later)."
+            "value": ". %1$#@a1@ downloaded from your cloud drive; try again later."
           },
           "substitutions": {
             "a1": {
@@ -992,13 +1014,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photo"
+                      "value": "%arg photo hasn't"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photos"
+                      "value": "%arg photos haven't"
                     }
                   }
                 }
@@ -1023,7 +1045,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": ", original only on the cloud drive"
+            "value": ", original only on your cloud drive"
           }
         }
       }
@@ -1033,7 +1055,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": ". %@ not read (drive disconnected or unreadable file, see the log)."
+            "value": ". Couldn't read %@ (drive disconnected or unreadable files; see the log)."
           }
         }
       }
@@ -1043,7 +1065,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "1 confirmed photo is waiting to be written to the file."
+            "value": "1 confirmed photo hasn't been written to its file yet."
           }
         }
       }
@@ -1053,7 +1075,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "YYYY, YYYY-MM or YYYY-MM-DD"
+            "value": "YYYY, YYYY-MM, or YYYY-MM-DD"
           }
         }
       }
@@ -1073,7 +1095,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Refresh the index"
+            "value": "Refresh Index"
           }
         }
       }
@@ -1183,7 +1205,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "More actions: Reanalyze asks the model for a different suggestion, tags added by hand stay"
+            "value": "More actions. Reanalyze asks the model for different suggestions and keeps tags you added yourself"
           }
         }
       }
@@ -1213,7 +1235,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Analyze %1$#@a1@ not analyzed yet"
+            "value": "Analyze %1$#@a1@ not yet analyzed"
           },
           "substitutions": {
             "a1": {
@@ -1273,7 +1295,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Analyze %1$#@a1@ not analyzed yet"
+            "value": "Analyze %1$#@a1@ not yet analyzed"
           },
           "substitutions": {
             "a1": {
@@ -1403,7 +1425,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Previews of %@: %lld of %lld"
+            "value": "Creating previews for %@: %lld of %lld"
           }
         }
       }
@@ -1413,7 +1435,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Previews of “%@”: %lld created"
+            "value": "Created %lld previews for “%@”"
           }
         }
       }
@@ -1423,7 +1445,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Open %@"
+            "value": "Expand %@"
           }
         }
       }
@@ -1433,7 +1455,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Open with Quick Look"
+            "value": "Quick Look"
           }
         }
       }
@@ -1443,7 +1465,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Open the large photo (space)"
+            "value": "View large (Space)"
           }
         }
       }
@@ -1463,7 +1485,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Waiting for the originals index to finish…"
+            "value": "Waiting for originals to finish indexing…"
           }
         }
       }
@@ -1483,7 +1505,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Send a notification when an analysis finishes"
+            "value": "Send a notification when analysis finishes"
           }
         }
       }
@@ -1503,7 +1525,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "A download is already in progress"
+            "value": "Another download is in progress"
           }
         }
       }
@@ -1513,7 +1535,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "A download is already in progress: try again when it finishes."
+            "value": "Another download is in progress. Try again when it's done."
           }
         }
       }
@@ -1523,7 +1545,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Free memory is low: %@ GB, and the analysis needs about %@. Quit heavy apps or wait for running builds to finish (for example Xcode or Rust), then try again. Analyzing now may slow the Mac down a lot or stop with a GPU error."
+            "value": "Only %@ GB of memory is free, and analysis needs about %@ GB. Quit memory-heavy apps or wait for builds to finish (Xcode or Rust, for example), then try again. Analyzing now may slow your Mac down considerably or fail with a GPU error."
           }
         }
       }
@@ -1563,7 +1585,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Loading the search model…"
+            "value": "Loading search model…"
           }
         }
       }
@@ -1583,7 +1605,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Folder not reconnected: %@"
+            "value": "Couldn't reconnect the folder: %@"
           }
         }
       }
@@ -1603,7 +1625,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Folders that hold the RAW files and original scans. FotoTag only reads them: it looks at file names and dates, without downloading anything from the cloud drive."
+            "value": "Folders containing your RAW files and original scans. FotoTag only reads file names and dates, and never downloads anything from your cloud drive."
           }
         }
       }
@@ -1633,7 +1655,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search all photos"
+            "value": "Search All Photos"
           }
         }
       }
@@ -1653,7 +1675,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Searching %1$#@a1@. The others are added while I prepare the search."
+            "value": "Results from %1$#@a1@. Refresh to include more."
           },
           "substitutions": {
             "a1": {
@@ -1685,7 +1707,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Asks the model for a different suggestion; tags added by hand stay"
+            "value": "Asks the model for different suggestions and keeps tags you added yourself"
           }
         }
       }
@@ -1715,7 +1737,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Close the notice"
+            "value": "Dismiss"
           }
         }
       }
@@ -1725,7 +1747,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "How to Read Folders"
+            "value": "Folder Structure"
           }
         }
       }
@@ -1735,7 +1757,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "With Errors"
+            "value": "Failed"
           }
         }
       }
@@ -1745,7 +1767,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Confirm the tags and move to the next one to review (↩ in the grid, ⌘↩ from the fields). Doesn't write to the files."
+            "value": "Confirm the tags and go to the next photo to review (Return in the grid, ⌘Return in a field). Doesn't write to the file."
           }
         }
       }
@@ -1776,13 +1798,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photo"
+                      "value": "%arg Photo"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photos"
+                      "value": "%arg Photos"
                     }
                   }
                 }
@@ -1837,7 +1859,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Back up files before changing them"
+            "value": "Back up files before modifying them"
           }
         }
       }
@@ -1847,17 +1869,17 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Back up before writing to the files"
+            "value": "Back up before writing"
           }
         }
       }
     },
-    "Copia gli originali in ~/Library/Application Support/FotoTag/Copie di sicurezza, tenuti 5 giorni": {
+    "Copia gli originali in ~/Library/Application Support/FotoTag/Backups, tenuti 5 giorni": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copies the originals to ~/Library/Application Support/FotoTag/Copie di sicurezza, kept for 5 days"
+            "value": "Copies originals to ~/Library/Application Support/FotoTag/Backups and keeps them for 5 days"
           }
         }
       }
@@ -1867,7 +1889,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copies of the same photo, for example with a frame: photos in there are not shown."
+            "value": "For copies of the same photo, such as framed versions. Photos in these folders are hidden."
           }
         }
       }
@@ -1898,13 +1920,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photo"
+                      "value": "%arg Photo"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photos"
+                      "value": "%arg Photos"
                     }
                   }
                 }
@@ -1989,7 +2011,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Date from the shot (EXIF), folder name as a tag, film only with clear clues."
+            "value": "Date from EXIF, folder name as a tag, film stock only when it's clearly indicated."
           }
         }
       }
@@ -1999,7 +2021,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Database not available: %@"
+            "value": "Database unavailable: %@"
           }
         }
       }
@@ -2009,7 +2031,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Diagnostics not saved: %@"
+            "value": "Couldn't save diagnostics: %@"
           }
         }
       }
@@ -2019,7 +2041,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Indicate a film scan"
+            "value": "Folder names that mean film scans"
           }
         }
       }
@@ -2059,7 +2081,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Where"
+            "value": "Location"
           }
         }
       }
@@ -2069,7 +2091,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Where to save photo previews (the ones already saved stay where they are)."
+            "value": "Choose where to save photo previews. Existing previews stay where they are."
           }
         }
       }
@@ -2079,7 +2101,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Where is “%@” now? Analysis, review and tags stay linked to the photos."
+            "value": "Where is “%@” now? Analysis results, reviews, and tags stay linked to the photos."
           }
         }
       }
@@ -2089,7 +2111,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Where are your photos?"
+            "value": "Where Are Your Photos?"
           }
         }
       }
@@ -2149,7 +2171,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "GPU error while analyzing %@, even after a second try: the analysis stopped. Try again with “Analyze”; if it happens again, quit and reopen FotoTag."
+            "value": "A GPU error occurred while analyzing %@, even after a retry, so analysis stopped. Click Analyze to try again. If it happens again, quit and reopen FotoTag."
           }
         }
       }
@@ -2159,7 +2181,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "GPU error: try again with “Analyze”."
+            "value": "GPU error. Click Analyze to try again."
           }
         }
       }
@@ -2189,7 +2211,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Esc goes back to %@"
+            "value": "Esc returns to %@"
           }
         }
       }
@@ -2209,7 +2231,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Export to a File…"
+            "value": "Export…"
           }
         }
       }
@@ -2219,7 +2241,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Exposed at"
+            "value": "Shot at"
           }
         }
       }
@@ -2239,7 +2261,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Done, with some problems"
+            "value": "Done, with Some Problems"
           }
         }
       }
@@ -2269,7 +2291,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Stop the download: files already downloaded stay, and next time it resumes from there"
+            "value": "Stop the download. Downloaded files are kept, and it resumes from there next time"
           }
         }
       }
@@ -2279,7 +2301,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": ".xmp files next to RAW files"
+            "value": "XMP Sidecar Name"
           }
         }
       }
@@ -2299,7 +2321,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "When the download finishes, the chosen photo is analyzed."
+            "value": "The selected photo is analyzed as soon as the download finishes."
           }
         }
       }
@@ -2309,7 +2331,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "When the download finishes, %1$#@a1@ analyzed. Progress shows at the bottom of the sidebar."
+            "value": "%1$#@a1@ analyzed as soon as the download finishes. Progress appears at the bottom of the sidebar."
           },
           "substitutions": {
             "a1": {
@@ -2341,7 +2363,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Formats read: RAW, HEIC, JPG and TIFF"
+            "value": "Supported formats: RAW, HEIC, JPG, and TIFF"
           }
         }
       }
@@ -2361,7 +2383,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Photo at 100%"
+            "value": "Actual Size"
           }
         }
       }
@@ -2371,7 +2393,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Photo at 100%: click, Z or Esc to see all of it"
+            "value": "Actual size. Click, press Z, or press Esc to fit"
           }
         }
       }
@@ -2381,7 +2403,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Large Photo"
+            "value": "Large View"
           }
         }
       }
@@ -2391,7 +2413,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Large photo: %@ px preview. The original is downloaded only if you ask."
+            "value": "Showing a %@ px preview. The original downloads only when requested."
           }
         }
       }
@@ -2401,7 +2423,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Photo not downloaded from the cloud drive"
+            "value": "Photo not downloaded from your cloud drive"
           }
         }
       }
@@ -2411,7 +2433,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Previous photo"
+            "value": "Previous Photo"
           }
         }
       }
@@ -2421,7 +2443,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Next photo"
+            "value": "Next Photo"
           }
         }
       }
@@ -2432,7 +2454,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "FotoTag downloads them one at a time and then removes them from the Mac again: for photos it prepares search and a preview, for RAW files it reads date and camera to link them to the JPGs (each RAW is a full download, 15-60 MB). It takes time and network traffic; you can stop it whenever you like."
+            "value": "FotoTag downloads them one at a time and removes the local copy when it's done. For photos, it prepares search and a preview; for RAW files, it reads the date and camera to match them to JPGs (each RAW is a full 15–60 MB download). This takes time and bandwidth, and you can stop at any time."
           }
         }
       }
@@ -2457,12 +2479,12 @@
         }
       }
     },
-    "Gli originali vengono copiati in ~/Library/Application Support/FotoTag/Copie di sicurezza e tenuti 5 giorni.": {
+    "Gli originali vengono copiati in ~/Library/Application Support/FotoTag/Backups e tenuti 5 giorni.": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The originals are copied to ~/Library/Application Support/FotoTag/Copie di sicurezza and kept for 5 days."
+            "value": "Originals are copied to ~/Library/Application Support/FotoTag/Backups and kept for 5 days."
           }
         }
       }
@@ -2482,7 +2504,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The models come from Hugging Face and run only on this Mac: your photos never leave the computer."
+            "value": "Models are downloaded from Hugging Face and run entirely on this Mac. Your photos never leave your computer."
           }
         }
       }
@@ -2512,7 +2534,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The cloud drive isn't responding: writing stopped after %lld of %lld photos."
+            "value": "Your cloud drive isn't responding. Writing stopped after %lld of %lld photos."
           }
         }
       }
@@ -2522,7 +2544,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The file can't be read completely. Click or Esc to go back to the photo."
+            "value": "Can't read the whole file. Click or press Esc to go back."
           }
         }
       }
@@ -2532,7 +2554,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The %@ model isn't on this Mac yet. Download it in FotoTag ▸ Settings ▸ Models (%.1f GB, only once)."
+            "value": "%@ isn't on this Mac yet. Download it once in FotoTag ▸ Settings ▸ Models (%.1f GB)."
           }
         }
       }
@@ -2542,7 +2564,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The photo's folder name becomes a tag (the date comes from the shot)"
+            "value": "Use each photo's folder name as a tag (date from EXIF)"
           }
         }
       }
@@ -2552,7 +2574,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The number shows how many photos have it; × removes it from all of them."
+            "value": "The number shows how many photos have the tag. × removes it from all of them."
           }
         }
       }
@@ -2562,7 +2584,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Import from a File…"
+            "value": "Import…"
           }
         }
       }
@@ -2582,7 +2604,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "In the background it pauses during analysis and when the Mac is on battery. Photos only on the cloud drive are never downloaded on their own."
+            "value": "Background indexing pauses during analysis and on battery power. Photos stored only on a cloud drive are never downloaded automatically."
           }
         }
       }
@@ -2592,7 +2614,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "There's nothing else to do here in any folder."
+            "value": "Nothing left to do here in any folder."
           }
         }
       }
@@ -2602,7 +2624,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Include %@ from the cloud drive?"
+            "value": "Include %@ from your cloud drive?"
           }
         }
       }
@@ -2622,7 +2644,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Include (I download them one at a time and then free the space)…"
+            "value": "Include (Downloads One at a Time)…"
           }
         }
       }
@@ -2722,7 +2744,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Indexing the originals…"
+            "value": "Indexing originals…"
           }
         }
       }
@@ -2752,7 +2774,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The original didn't arrive from the cloud drive: try again later."
+            "value": "The original hasn't downloaded from your cloud drive. Try again later."
           }
         }
       }
@@ -2762,7 +2784,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The folder and its subfolders contain no photos."
+            "value": "This folder and its subfolders don't contain any photos."
           }
         }
       }
@@ -2772,7 +2794,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The folder gives the digitization date (%@), not the shot."
+            "value": "The folder date (%@) is when the film was scanned, not shot."
           }
         }
       }
@@ -2782,7 +2804,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Long Side"
+            "value": "Long Edge"
           }
         }
       }
@@ -2792,7 +2814,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Folders that use it go back to Generic. Importing it again from the file brings them back to this profile."
+            "value": "Folders using it switch to Generic. If you import it again later, they switch back."
           }
         }
       }
@@ -2802,7 +2824,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The confirmed photos are already written to the files."
+            "value": "All confirmed photos have been written to their files."
           }
         }
       }
@@ -2812,7 +2834,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keywords already in the files stay."
+            "value": "Existing keywords in the files are kept."
           }
         }
       }
@@ -2822,7 +2844,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Reading RAW files on the cloud drive: %@ of %@"
+            "value": "Reading RAW files from your cloud drive: %@ of %@"
           }
         }
       }
@@ -2842,7 +2864,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Language of the tags written to the files and of the model prompt. Photos already analyzed keep their language: to change them, reanalyze them. Fixed tags (origin, date, film…) change language at the next write to the files."
+            "value": "The language the model tags in and that's written to your files. Photos already analyzed keep their language until you reanalyze them. Fixed tags (origin, date, film…) switch language the next time they're written."
           }
         }
       }
@@ -2882,7 +2904,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search model to download"
+            "value": "Search model not downloaded"
           }
         }
       }
@@ -2892,7 +2914,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Model not loaded: %@."
+            "value": "Couldn't load the model: %@."
           }
         }
       }
@@ -2942,7 +2964,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show the number of photos to review on the icon"
+            "value": "Show photos to review as an icon badge"
           }
         }
       }
@@ -2952,7 +2974,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show progress on the Dock icon"
+            "value": "Show progress in the Dock icon"
           }
         }
       }
@@ -2962,7 +2984,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show the Photo in Finder"
+            "value": "Show in Finder"
           }
         }
       }
@@ -2982,7 +3004,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show the review (⌥⌘I)"
+            "value": "Show review (⌥⌘I)"
           }
         }
       }
@@ -3022,7 +3044,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show only photos in this state"
+            "value": "Show only photos with this status"
           }
         }
       }
@@ -3042,7 +3064,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hide from the List"
+            "value": "Remove from Sidebar"
           }
         }
       }
@@ -3052,7 +3074,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hide the review (⌥⌘I)"
+            "value": "Hide review (⌥⌘I)"
           }
         }
       }
@@ -3062,7 +3084,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "In film folders, a YYYYMMDD date is the scan day (only the month is kept)"
+            "value": "In film folders, a YYYYMMDD date is the scan date (keep only the month)"
           }
         }
       }
@@ -3072,7 +3094,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No results to review"
+            "value": "No Results to Review"
           }
         }
       }
@@ -3082,7 +3104,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No tags from the path."
+            "value": "No tags from this path."
           }
         }
       }
@@ -3092,7 +3114,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No Folder"
+            "value": "No Folder Selected"
           }
         }
       }
@@ -3112,7 +3134,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No photos analyzed."
+            "value": "No photos were analyzed."
           }
         }
       }
@@ -3122,7 +3144,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No Photos with Errors"
+            "value": "No Failed Photos"
           }
         }
       }
@@ -3182,7 +3204,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No Photo Chosen"
+            "value": "No Photo Selected"
           }
         }
       }
@@ -3212,7 +3234,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nothing left to review here"
+            "value": "Nothing Left to Review Here"
           }
         }
       }
@@ -3252,7 +3274,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Deletes nothing: bring it back from Settings ▸ General ▸ Folders"
+            "value": "Nothing is deleted. Add it back in Settings ▸ General ▸ Folders"
           }
         }
       }
@@ -3262,7 +3284,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Can't open at 100%"
+            "value": "Can't Show Actual Size"
           }
         }
       }
@@ -3272,7 +3294,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No longer indexed; photos and analyses already there stay"
+            "value": "Stops indexing. Existing photos and analysis results are kept"
           }
         }
       }
@@ -3282,7 +3304,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Not used by any folder. Choose it in General ▸ Folders."
+            "value": "Not used by any folder. Assign profiles in General ▸ Folders."
           }
         }
       }
@@ -3292,7 +3314,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "New drive: %@"
+            "value": "New Drive: %@"
           }
         }
       }
@@ -3342,7 +3364,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Original only on the cloud drive: this is the saved preview"
+            "value": "Original is only on your cloud drive; showing the saved preview"
           }
         }
       }
@@ -3382,7 +3404,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Films"
+            "value": "Film Stocks"
           }
         }
       }
@@ -3392,7 +3414,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Searching photos needs the SigLIP 2 model: it's downloaded only once (0.75 GB) and takes 1.5 GB on disk."
+            "value": "Searching photos requires the SigLIP 2 model. It's a one-time 0.75 GB download and uses 1.5 GB of disk space."
           }
         }
       }
@@ -3402,7 +3424,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "For Macs with 8 GB. About 2 times faster, but it invents more details and recognizes fewer places: review the tags."
+            "value": "For Macs with 8 GB of memory. About twice as fast, but it makes up more details and recognizes fewer places, so review its tags."
           }
         }
       }
@@ -3412,7 +3434,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "For export folders: consider only RAW files, not JPGs"
+            "value": "For export folders: match RAW files only, not JPGs"
           }
         }
       }
@@ -3422,7 +3444,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "To recognize what's in your photos FotoTag uses %@: %@ GB, downloaded only once from Hugging Face. Your photos never leave the Mac."
+            "value": "FotoTag uses %@ to recognize what's in your photos. It's a one-time %@ GB download from Hugging Face. Your photos never leave your Mac."
           }
         }
       }
@@ -3432,7 +3454,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "To see the photo at 100%, first download the original (button below the photo)."
+            "value": "To view at actual size, download the original first (button below the photo)."
           }
         }
       }
@@ -3442,7 +3464,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Path of a photo"
+            "value": "Photo path"
           }
         }
       }
@@ -3462,7 +3484,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Low Free Memory"
+            "value": "Low Memory"
           }
         }
       }
@@ -3482,7 +3504,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Preparing search: %@ of %@ photos"
+            "value": "Indexing for search: %@ of %@ photos"
           }
         }
       }
@@ -3512,7 +3534,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profiles not read (%@): %@. Changes to profiles won't be saved."
+            "value": "Couldn't read profiles (%@): %@. Changes to profiles won't be saved."
           }
         }
       }
@@ -3522,7 +3544,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profiles not saved: %@"
+            "value": "Couldn't save profiles: %@"
           }
         }
       }
@@ -3532,7 +3554,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profiles not saved: the profiles file couldn't be read at launch."
+            "value": "Couldn't save profiles because the profiles file couldn't be read at launch."
           }
         }
       }
@@ -3552,7 +3574,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profile not exported: %@"
+            "value": "Couldn't export the profile: %@"
           }
         }
       }
@@ -3562,7 +3584,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profile for new locations"
+            "value": "Profile for New Locations"
           }
         }
       }
@@ -3572,7 +3594,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profile for reading year and month from the originals' folders"
+            "value": "Profile used to read year and month from the originals' folders"
           }
         }
       }
@@ -3582,7 +3604,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Profile “%@” missing: Generic applies until you import it in Profiles"
+            "value": "Profile “%@” is missing. Using Generic until you import it in Settings ▸ Profiles."
           }
         }
       }
@@ -3592,7 +3614,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Try It"
+            "value": "Test"
           }
         }
       }
@@ -3602,7 +3624,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Try other words, for example a place, an object or a time of day."
+            "value": "Try different words, such as a place, an object, or a time of day."
           }
         }
       }
@@ -3612,7 +3634,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Full quality. About 8 s per photo on M2 Pro, 6.4 GB of memory during analysis."
+            "value": "Full quality. About 8 s per photo on an M2 Pro, using 6.4 GB of memory."
           }
         }
       }
@@ -3622,7 +3644,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "This folder has no photos of its own. Show subfolders with View ▸ Include Subfolders."
+            "value": "This folder has no photos of its own. To see subfolders, choose View ▸ Include Subfolders."
           }
         }
       }
@@ -3632,7 +3654,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "These photos are on a cloud drive: the originals will be changed, and the change will reach the cloud too."
+            "value": "These photos are on a cloud drive. The originals will be modified, and the changes will sync."
           }
         }
       }
@@ -3642,7 +3664,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "This Mac has %.0f GB of memory: %@ recommended."
+            "value": "%2$@ is recommended for this Mac (%1$.0f GB of memory)."
           }
         }
       }
@@ -3652,7 +3674,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Qwen3-VL 4B (light)"
+            "value": "Qwen3-VL 4B (Lite)"
           }
         }
       }
@@ -3723,13 +3745,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photo"
+                      "value": "%arg Photo"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photos"
+                      "value": "%arg Photos"
                     }
                   }
                 }
@@ -3744,7 +3766,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Reloading the model after a GPU error…"
+            "value": "Reloading model after a GPU error…"
           }
         }
       }
@@ -3774,7 +3796,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search stopped: it only searches photos already prepared."
+            "value": "Indexing stopped. Search covers only photos already indexed."
           }
         }
       }
@@ -3784,7 +3806,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search paused during analysis"
+            "value": "Search indexing paused during analysis"
           }
         }
       }
@@ -3794,7 +3816,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search paused: Mac on battery"
+            "value": "Search indexing paused on battery power"
           }
         }
       }
@@ -3814,7 +3836,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search ready on %1$#@a1@"
+            "value": "%1$#@a1@ ready to search"
           },
           "substitutions": {
             "a1": {
@@ -3936,7 +3958,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save a preview of every analyzed photo"
+            "value": "Save a preview of each analyzed photo"
           }
         }
       }
@@ -3976,7 +3998,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Download the Search Model"
+            "value": "Download Search Model"
           }
         }
       }
@@ -3986,7 +4008,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Download the Original"
+            "value": "Download Original"
           }
         }
       }
@@ -4016,7 +4038,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Discarded by cleanup: %@"
+            "value": "Filtered out: %@"
           }
         }
       }
@@ -4056,7 +4078,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose the original (RAW or scan) of %@"
+            "value": "Choose the original (RAW or scan) for %@"
           }
         }
       }
@@ -4066,7 +4088,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose the folder that holds all your photos, for example Pictures or an external drive. FotoTag finds RAW, HEIC, JPG and TIFF files in subfolders by itself and changes nothing."
+            "value": "Choose the folder that contains all your photos, such as Pictures or an external drive. FotoTag finds RAW, HEIC, JPG, and TIFF files in every subfolder and doesn't change anything."
           }
         }
       }
@@ -4076,7 +4098,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose the folder that holds all your photos, for example Pictures or an external drive: FotoTag finds them in subfolders too. Photos aren't changed and no analysis starts on its own."
+            "value": "Choose the folder that contains all your photos, such as Pictures or an external drive. FotoTag also finds photos in subfolders. Nothing is modified, and no analysis starts on its own."
           }
         }
       }
@@ -4086,7 +4108,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose the folders that hold the RAW files and original scans. They will only be read."
+            "value": "Choose the folders containing your RAW files and original scans. They're only read, never modified."
           }
         }
       }
@@ -4106,7 +4128,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose a result to review it and confirm its tags."
+            "value": "Select a result to review and confirm its tags."
           }
         }
       }
@@ -4116,7 +4138,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose a folder in the sidebar, or give access to a drive with File ▸ Add Drive or Folder… (⌘O)."
+            "value": "Select a folder in the sidebar, or add a drive with File ▸ Add Drive or Folder… (⌘O)."
           }
         }
       }
@@ -4126,7 +4148,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose a photo in the grid."
+            "value": "Select a photo in the grid."
           }
         }
       }
@@ -4166,7 +4188,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Write tags and captions to %1$#@a1@?"
+            "value": "Write Tags and Captions to %1$#@a1@?"
           },
           "substitutions": {
             "a1": {
@@ -4177,13 +4199,13 @@
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photo"
+                      "value": "%arg Photo"
                     }
                   },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg photos"
+                      "value": "%arg Photos"
                     }
                   }
                 }
@@ -4228,7 +4250,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "If an .xmp of the other kind already exists, it is updated too."
+            "value": "An existing sidecar with the other naming style is updated too."
           }
         }
       }
@@ -4238,7 +4260,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mark to Review"
+            "value": "Mark for Review"
           }
         }
       }
@@ -4248,7 +4270,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lets you see photos on cloud drives without downloading them"
+            "value": "Lets you browse photos on cloud drives without downloading them"
           }
         }
       }
@@ -4258,7 +4280,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The analysis model is needed"
+            "value": "Analysis Model Required"
           }
         }
       }
@@ -4268,7 +4290,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Used for “Search photos”. Google, Apache 2.0 license."
+            "value": "Powers photo search. By Google, Apache 2.0 license."
           }
         }
       }
@@ -4278,7 +4300,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Only confirmed photos are written to the files: confirm the tags before writing."
+            "value": "Only confirmed photos are written to files. Confirm their tags first."
           }
         }
       }
@@ -4298,7 +4320,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Film codes in folder names and the full name to use in tags. If the name is empty, the code stays."
+            "value": "Film codes used in folder names, with the full name to use in tags. If the full name is empty, the code is used."
           }
         }
       }
@@ -4308,7 +4330,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "From the path only: shooting date, origin and black and white are read from the file, which isn't on this Mac."
+            "value": "Based on the path only. Capture date, origin, and black and white come from the file, which isn't on this Mac."
           }
         }
       }
@@ -4318,7 +4340,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Only When I Search"
+            "value": "Only When Searching"
           }
         }
       }
@@ -4328,7 +4350,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Replacing it loses the changes made here after the export. Folders that use it stay with it."
+            "value": "Replacing it discards changes made here since it was exported. Folders using it keep using it."
           }
         }
       }
@@ -4348,7 +4370,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Subfolders not to list"
+            "value": "Hidden subfolders"
           }
         }
       }
@@ -4358,7 +4380,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Not enough space: %.1f GB free needed (the model plus %.0f GB of margin), there are %.1f."
+            "value": "Not enough disk space. The model needs %.1f GB free, including %.0f GB to spare; %.1f GB is available."
           }
         }
       }
@@ -4368,7 +4390,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Year ▸ month ▸ roll structure: date, roll and film from the folder names"
+            "value": "Year ▸ Month ▸ Roll folders (date, roll, and film from folder names)"
           }
         }
       }
@@ -4378,7 +4400,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "It may be very slow on this Mac: it needs more memory."
+            "value": "This model may run very slowly on this Mac; it needs more memory."
           }
         }
       }
@@ -4388,7 +4410,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "It may be very slow on this Mac: it needs more memory. Change it in Settings ▸ Models."
+            "value": "This model may run very slowly on this Mac; it needs more memory. You can change it in Settings ▸ Models."
           }
         }
       }
@@ -4398,7 +4420,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Less than 10 GB left on the internal disk: a folder on an external drive is better."
+            "value": "Less than 10 GB free on the internal drive. Consider a folder on an external drive."
           }
         }
       }
@@ -4418,7 +4440,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tags changed after the last write to the files"
+            "value": "Tags changed since last written to the file"
           }
         }
       }
@@ -4428,7 +4450,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tags of the selected photos"
+            "value": "Tags in Selected Photos"
           }
         }
       }
@@ -4448,7 +4470,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fixed tags of the selected photos"
+            "value": "Fixed Tags in Selected Photos"
           }
         }
       }
@@ -4458,7 +4480,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tags written to the files"
+            "value": "Tags written to the file"
           }
         }
       }
@@ -4498,7 +4520,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Remove the tag %@"
+            "value": "Remove tag %@"
           }
         }
       }
@@ -4548,7 +4570,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Back to the grid (space or Esc)"
+            "value": "Back to grid (Space or Esc)"
           }
         }
       }
@@ -4558,7 +4580,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Back to the photos"
+            "value": "Back to Photos"
           }
         }
       }
@@ -4588,7 +4610,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "All analyzed photos in “%@” already have a preview."
+            "value": "All analyzed photos in “%@” already have previews."
           }
         }
       }
@@ -4598,7 +4620,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "A RAW file without a JPG can only be viewed: for now FotoTag analyzes JPG, HEIC and TIFF. Export a JPG to analyze it."
+            "value": "This RAW file has no JPG, so it can only be viewed. FotoTag currently analyzes JPG, HEIC, and TIFF; export a JPG to analyze it."
           }
         }
       }
@@ -4608,7 +4630,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Used in nearby photos of this roll"
+            "value": "Used in nearby photos on this roll"
           }
         }
       }
@@ -4618,7 +4640,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Often used by you"
+            "value": "Frequently used"
           }
         }
       }
@@ -4628,7 +4650,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Used by: %@. Change it in General ▸ Folders."
+            "value": "Used by %@. Change this in General ▸ Folders."
           }
         }
       }
@@ -4648,7 +4670,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Uncertain value: correct it or click to confirm it"
+            "value": "Uncertain value. Correct it, or click to confirm"
           }
         }
       }
@@ -4658,7 +4680,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "analog"
+            "value": "film"
           }
         }
       }
@@ -4698,7 +4720,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "about %lld KB per photo, for %@ photos about %@ MB"
+            "value": "about %lld KB per photo, about %@ MB for %@ photos"
           }
         }
       }
@@ -4738,7 +4760,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "corrected by hand"
+            "value": "edited"
           }
         }
       }
@@ -4748,7 +4770,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "to analyze"
+            "value": "not analyzed"
           }
         }
       }
@@ -4758,7 +4780,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "from folder, EXIF and colors"
+            "value": "from folder names, EXIF, and colors"
           }
         }
       }
@@ -4768,7 +4790,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "to rewrite"
+            "value": "changed"
           }
         }
       }
@@ -4788,7 +4810,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "to write"
+            "value": "pending"
           }
         }
       }
@@ -4798,7 +4820,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "to check"
+            "value": "check"
           }
         }
       }
@@ -4858,7 +4880,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "e.g. 1048"
+            "value": "e.g., 1048"
           }
         }
       }
@@ -4868,7 +4890,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "e.g. Ilford HP5 Plus 400"
+            "value": "e.g., Ilford HP5 Plus 400"
           }
         }
       }
@@ -4898,7 +4920,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "file damaged during download: %@. Try again."
+            "value": "file corrupted during download: %@. Try again."
           }
         }
       }
@@ -4908,7 +4930,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "unreadable image: %@"
+            "value": "can't read image: %@"
           }
         }
       }
@@ -4928,7 +4950,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "being analyzed"
+            "value": "analyzing"
           }
         }
       }
@@ -4948,7 +4970,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "uncertain: to check"
+            "value": "uncertain: check it"
           }
         }
       }
@@ -4968,7 +4990,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "SigLIP model without an image input"
+            "value": "SigLIP model has no image input"
           }
         }
       }
@@ -5018,7 +5040,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "not connected"
+            "value": "disconnected"
           }
         }
       }
@@ -5028,7 +5050,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "not written"
+            "value": "failed"
           }
         }
       }
@@ -5048,7 +5070,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "new code, e.g. portra 400"
+            "value": "new code, e.g., portra 400"
           }
         }
       }
@@ -5108,7 +5130,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "chosen by hand"
+            "value": "chosen manually"
           }
         }
       }
@@ -5148,7 +5170,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "certain: same shooting date · likely: consistent folder · uncertain: several similar candidates. The sidecar is written only for “certain” or chosen by hand."
+            "value": "certain: same capture date · likely: matching folder · uncertain: several similar candidates. A sidecar is written only for certain or manually chosen matches."
           }
         }
       }
@@ -5168,7 +5190,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "sidecar without rdf:Description"
+            "value": "sidecar has no rdf:Description"
           }
         }
       }
@@ -5218,7 +5240,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "different values"
+            "value": "multiple values"
           }
         }
       }
@@ -5238,7 +5260,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "“%@” already exists"
+            "value": "“%@” Already Exists"
           }
         }
       }
@@ -5258,7 +5280,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "“%@” is fully reviewed"
+            "value": "“%@” Is Fully Reviewed"
           }
         }
       }
@@ -5268,7 +5290,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "· add the originals' folders in Settings"
+            "value": "· add your originals' folders in Settings"
           }
         }
       }
@@ -5279,7 +5301,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "↑ ↓ choose, ↩ add, Esc close"
+            "value": "↑↓ to choose, Return to add, Esc to close"
           }
         }
       }
@@ -5289,7 +5311,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "↩ confirm and go to the next, ← → change photo, space enlarges, ⌘Z undo"
+            "value": "Return: confirm and go to next · ←→: change photo · Space: large view · ⌘Z: undo"
           }
         }
       }
@@ -5299,7 +5321,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "↩ confirm and next, ← → change photo, space or Esc back to the grid, ⌘Z undo"
+            "value": "Return: confirm and next · ←→: change photo · Space or Esc: back to grid · ⌘Z: undo"
           }
         }
       }
@@ -5309,7 +5331,7 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "⌘-click adds or removes a photo, ⇧-click selects a range, ⌘A selects all."
+            "value": "⌘-click to add or remove a photo, Shift-click to select a range, ⌘A to select all."
           }
         }
       }

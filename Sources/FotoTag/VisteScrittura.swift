@@ -82,7 +82,7 @@ struct FoglioScrittura: View {
             .background(RoundedRectangle(cornerRadius: 8).fill(.quaternary.opacity(0.5)))
 
             Toggle("Copia di sicurezza dei file prima di modificarli", isOn: $stato.copiaDiSicurezza)
-                .help("Copia gli originali in ~/Library/Application Support/FotoTag/Copie di sicurezza, tenuti 5 giorni")
+                .help("Copia gli originali in ~/Library/Application Support/FotoTag/Backups, tenuti 5 giorni")
 
             if lavoro.inCorso {
                 ProgressView(value: Double(lavoro.fatte), total: Double(lavoro.foto.count)) {

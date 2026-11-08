@@ -149,7 +149,7 @@ struct Impostazioni: View {
             }
             Section("Scrittura") {
                 Toggle("Copia di sicurezza prima di scrivere nei file", isOn: $stato.copiaDiSicurezza)
-                    .help("Gli originali vengono copiati in ~/Library/Application Support/FotoTag/Copie di sicurezza e tenuti 5 giorni.")
+                    .help("Gli originali vengono copiati in ~/Library/Application Support/FotoTag/Backups e tenuti 5 giorni.")
                 Picker("File .xmp accanto ai RAW", selection: $stato.nomeSidecar) {
                     ForEach(FotoTagCore.Scrittura.NomeSidecar.allCases, id: \.rawValue) { Text($0.descrizione).tag($0.rawValue) }
                 }

@@ -366,9 +366,18 @@ public enum Scrittura {
         }
     }
 
-    /// Una cartella per ogni scrittura, con il nome della data e ora.
-    public static let cartellaCopie = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        .appendingPathComponent("FotoTag/Copie di sicurezza")
+    /// Una cartella per ogni scrittura, con il nome della data e ora. Fino all'8/11/2026 si chiamava «Copie di sicurezza»:
+    /// al primo uso la vecchia cartella prende il nome nuovo, così le copie restano e la pulizia dei 5 giorni le trova.
+    /// shortcut: se esistono già tutte e due la vecchia resta dov'è, a mano; succede solo con due versioni di FotoTag usate insieme.
+    public static let cartellaCopie: URL = {
+        let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0].appendingPathComponent("FotoTag")
+        let nuova = base.appendingPathComponent("Backups"), vecchia = base.appendingPathComponent("Copie di sicurezza")
+        if FileManager.default.fileExists(atPath: vecchia.path), !FileManager.default.fileExists(atPath: nuova.path) {
+            do { try FileManager.default.moveItem(at: vecchia, to: nuova); Diario.info("copie di sicurezza: cartella rinominata in Backups") }
+            catch { Diario.errore("copie di sicurezza: cartella non rinominata: \(error.localizedDescription)") }
+        }
+        return nuova
+    }()
     public static let giorniCopie = 5.0
 
     /// Elimina le copie di sicurezza delle scritture più vecchie di `giorni` (D61). Restituisce quante cartelle ha tolto.

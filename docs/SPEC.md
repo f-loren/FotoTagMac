@@ -51,7 +51,7 @@ Regole del modulo (D33, D36, D40, D48-D51). Analisi: `../note/2026-10-31_analisi
 
 ## 4. Dati
 
-Tutto sta in `~/Library/Application Support/FotoTag/`: database `fototag.db` (SQLite, WAL), `Modelli/`, `pellicole.json`, `Copie di sicurezza/`, anteprime e `log.txt`. Nessun dato esce dal Mac (D2); l'unico traffico di rete è il download dei modelli.
+Tutto sta in `~/Library/Application Support/FotoTag/`: database `fototag.db` (SQLite, WAL), `Modelli/`, `pellicole.json`, `Backups/` (fino all'8/11/2026 `Copie di sicurezza/`), anteprime e `log.txt`. Nessun dato esce dal Mac (D2); l'unico traffico di rete è il download dei modelli.
 
 | Tabella | Cosa tiene |
 |---|---|

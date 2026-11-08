@@ -108,10 +108,10 @@ public struct Lingua: Sendable {
         evita: "\nAvoid these tags, already rejected: ",
         traduzioni: [
             "origine sconosciuta": "unknown origin", "analogica": "analog", "digitale": "digital",
-            "bianco e nero": "black and white", "colore": "color", "digitalizzata il": "digitized on",
-            "rullino": "roll", "pellicola": "film", "esposta a": "exposed at",
+            "bianco e nero": "black and white", "colore": "color", "digitalizzata il": "scanned on",
+            "rullino": "roll", "pellicola": "film", "esposta a": "shot at",
             "Origine": "Origin", "Tono": "Tone", "Data": "Date", "Rullino": "Roll", "Pellicola": "Film",
-            "Esposta a": "Exposed at", "Contesto": "Context", "Contenuto": "Content", "manuale": "manual",
+            "Esposta a": "Shot at", "Contesto": "Context", "Contenuto": "Content", "manuale": "manual",
             "soggetti": "subjects", "luogo": "place", "oggetti": "objects", "azioni": "actions", "atmosfera": "mood",
         ],
         mesi: ["january", "february", "march", "april", "may", "june", "july", "august",
